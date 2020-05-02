@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../learningPage/learn_wind.fxml"));
         primaryStage.setTitle("My Weather Forecast");
         primaryStage.setScene(new Scene(root, 1920, 1080));
         primaryStage.show();
