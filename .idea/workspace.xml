@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="new updatess">
+      <change afterPath="$PROJECT_DIR$/src/CSS/LP_MenuButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SemProjectWeatherForecast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SemProjectWeatherForecast.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_front.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_front.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learningPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learningPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_front.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPage/learn_front.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +58,12 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
         <option value="FxmlFile" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -68,7 +74,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1bFoie2qN5uEPTaVpVylFkHhNCK" />
@@ -78,7 +84,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -93,29 +98,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sample/images" />
-      <recent name="$PROJECT_DIR$/src/sample" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/learn_wind/learningWind" />
       <recent name="$PROJECT_DIR$/src/images/learningWind" />
       <recent name="$PROJECT_DIR$/src/sample" />
       <recent name="$PROJECT_DIR$/src/learningPage" />
       <recent name="$PROJECT_DIR$/src/sample/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/CSS" />
+      <recent name="$PROJECT_DIR$/src/sample/images" />
+      <recent name="$PROJECT_DIR$/src/sample" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,6 +153,8 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="SemProjectWeatherForecast" />
       <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
@@ -221,6 +231,8 @@
       <workItem from="1588759421173" duration="4574000" />
       <workItem from="1588769131325" duration="3000" />
       <workItem from="1588769300100" duration="3000" />
+      <workItem from="1588779220545" duration="813000" />
+      <workItem from="1588780276243" duration="1951000" />
     </task>
     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
       <created>1588438114130</created>
@@ -270,24 +282,47 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1588776833228</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="new updatess">
+      <created>1588777001163</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1588777001163</updated>
+    </task>
+    <task id="LOCAL−00010" summary="new updatess">
+      <created>1588777077382</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1588777077382</updated>
+    </task>
+    <task id="LOCAL−00011" summary="new updatess">
+      <created>1588777129386</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1588777129386</updated>
+    </task>
+    <task id="LOCAL−00012" summary="new updatess">
+      <created>1588777138026</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1588777138026</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -300,46 +335,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="new updatess" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588763264854">
+    <state x="320" y="125" key="#Project_Structure" timestamp="1588778707696">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.873@0.23.1440.873" timestamp="1588763264854" />
+    <state x="320" y="125" key="#Project_Structure/0.23.1440.873@0.23.1440.873" timestamp="1588778707696" />
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588778300336">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.873@0.23.1440.873" timestamp="1588778300336" />
     <state x="457" y="250" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588763262933">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="457" y="250" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.873@0.23.1440.873" timestamp="1588763262933" />
-    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588429984598">
+    <state x="570" y="367" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588777299982">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1588429984598" />
-    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1588777129268">
+    <state x="570" y="367" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.873@0.23.1440.873" timestamp="1588777299982" />
+    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588780661350">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1588777129268" />
+    <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1588780661350" />
+    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1588777137897">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1588777137897" />
     <state x="535" y="360" key="Github.ShareDialog" timestamp="1588238422671">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
-    <state width="1398" height="340" key="GridCell.Tab.0.bottom" timestamp="1588776935660">
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom" timestamp="1588782311067">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1588776935660" />
-    <state width="1398" height="340" key="GridCell.Tab.0.center" timestamp="1588776935660">
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1588782311067" />
+    <state width="1398" height="308" key="GridCell.Tab.0.center" timestamp="1588782311062">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1588776935660" />
-    <state width="1398" height="340" key="GridCell.Tab.0.left" timestamp="1588776935659">
+    <state width="1398" height="308" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1588782311062" />
+    <state width="1398" height="308" key="GridCell.Tab.0.left" timestamp="1588782311061">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1588776935659" />
-    <state width="1398" height="340" key="GridCell.Tab.0.right" timestamp="1588776935660">
+    <state width="1398" height="308" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1588782311061" />
+    <state width="1398" height="308" key="GridCell.Tab.0.right" timestamp="1588782311067">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="340" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1588776935660" />
-    <state x="208" y="41" key="SettingsEditor" timestamp="1588237366099">
+    <state width="1398" height="308" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1588782311067" />
+    <state x="144" y="100" key="MergeDialog" timestamp="1588777174830">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="208" y="41" key="SettingsEditor/0.23.1440.873@0.23.1440.873" timestamp="1588237366099" />
+    <state x="144" y="100" key="MergeDialog/0.23.1440.873@0.23.1440.873" timestamp="1588777174830" />
+    <state x="433" y="183" key="MultipleFileMergeDialog" timestamp="1588777177724">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="433" y="183" key="MultipleFileMergeDialog/0.23.1440.873@0.23.1440.873" timestamp="1588777177724" />
+    <state x="208" y="41" key="SettingsEditor" timestamp="1588779009184">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="208" y="41" key="SettingsEditor/0.23.1440.873@0.23.1440.873" timestamp="1588779009184" />
     <state x="381" y="183" key="VCS.ChangeListViewerDialog" timestamp="1588777068816">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
@@ -348,18 +399,18 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="572" y="381" key="VCS.ChangelistChooser/0.23.1440.873@0.23.1440.873" timestamp="1588770257122" />
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1588777078929">
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1588777139553">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1588777078929" />
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1588777139553" />
     <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588754082800">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="399" y="292" key="com.intellij.ide.util.TipDialog/0.23.1440.873@0.23.1440.873" timestamp="1588754082800" />
-    <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588777055994">
+    <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588778322569">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1588777055994" />
+    <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1588778322569" />
     <state x="364" y="367" key="git4idea.ui.GitStashDialog" timestamp="1588758311187">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
