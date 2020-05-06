@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane maxHeight="1080.0" maxWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #C4E4EB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.fontpageController">
+   <center>
+      <HBox prefHeight="800.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="30.0" arcWidth="30.0" fill="DODGERBLUE" height="800.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" translateX="300.0" translateY="140.0" width="500.0" />
+            <Rectangle arcHeight="30.0" arcWidth="30.0" fill="DODGERBLUE" height="800.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" translateX="600.0" translateY="140.0" width="500.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Rectangle>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
