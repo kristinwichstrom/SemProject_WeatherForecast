@@ -279,10 +279,10 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1588429984598" />
-    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1588758318008">
+    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1588766762575">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1588758318008" />
+    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1588766762575" />
     <state x="535" y="360" key="Github.ShareDialog" timestamp="1588238422671">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
@@ -307,10 +307,14 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="208" y="41" key="SettingsEditor/0.23.1440.873@0.23.1440.873" timestamp="1588237366099" />
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1588758320218">
+    <state x="572" y="381" key="VCS.ChangelistChooser" timestamp="1588766781263">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1588758320218" />
+    <state x="572" y="381" key="VCS.ChangelistChooser/0.23.1440.873@0.23.1440.873" timestamp="1588766781263" />
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1588766764636">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1588766764636" />
     <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588754082800">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
