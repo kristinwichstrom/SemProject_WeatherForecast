@@ -213,7 +213,9 @@
       <workItem from="1588422645167" duration="9606000" />
       <workItem from="1588583142796" duration="4349000" />
       <workItem from="1588600836065" duration="1528000" />
-      <workItem from="1588681620601" duration="716000" />
+      <workItem from="1588681620601" duration="1225000" />
+      <workItem from="1588754070823" duration="41000" />
+      <workItem from="1588756849744" duration="300000" />
     </task>
     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
       <created>1588438114130</created>
@@ -264,22 +266,22 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
-    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1588682265373">
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1588754111731">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1588682265373" />
-    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1588682265372">
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1588754111731" />
+    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1588754111730">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1588682265372" />
-    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1588682265371">
+    <state width="1398" height="229" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1588754111730" />
+    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1588754111729">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1588682265371" />
-    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1588682265372">
+    <state width="1398" height="229" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1588754111729" />
+    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1588754111730">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1588682265372" />
+    <state width="1398" height="229" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1588754111730" />
     <state x="208" y="41" key="SettingsEditor" timestamp="1588237366099">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
@@ -288,14 +290,18 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1588445688238" />
-    <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588600836371">
+    <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588754082800">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="399" y="292" key="com.intellij.ide.util.TipDialog/0.23.1440.873@0.23.1440.873" timestamp="1588600836371" />
+    <state x="399" y="292" key="com.intellij.ide.util.TipDialog/0.23.1440.873@0.23.1440.873" timestamp="1588754082800" />
     <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588681453251">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1588681453251" />
+    <state x="364" y="367" key="git4idea.ui.GitStashDialog" timestamp="1588758311187">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="364" y="367" key="git4idea.ui.GitStashDialog/0.23.1440.873@0.23.1440.873" timestamp="1588758311187" />
     <state x="308" y="82" key="new project wizard" timestamp="1588445256383">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
