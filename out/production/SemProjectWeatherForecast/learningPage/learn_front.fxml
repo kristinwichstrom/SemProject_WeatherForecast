@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #C4E4EB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningPage.learningPageController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" style="-fx-background-radius: 160 160 160 160;" text="Button" translateX="130.0">
+               <HBox.margin>
+                  <Insets right="30.0" top="250.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" style="-fx-background-radius: 160 160 160 160;" text="Button" translateX="130.0">
+               <HBox.margin>
+                  <Insets right="30.0" top="250.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" style="-fx-background-radius: 160 160 160 160;" text="Button" translateX="130.0">
+               <HBox.margin>
+                  <Insets right="30.0" top="250.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" style="-fx-background-radius: 160 160 160 160;" text="Button" translateX="130.0">
+               <HBox.margin>
+                  <Insets right="30.0" top="250.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

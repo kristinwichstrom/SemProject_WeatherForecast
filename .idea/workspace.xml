@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="new updatess">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningPage/learn_clouds.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningPage/learn_rain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_front.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPage/learn_front.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SemProjectWeatherForecast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SemProjectWeatherForecast.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learningPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learningPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +96,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -147,7 +154,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="SemProjectWeatherForecast" />
-      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/desktop/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
@@ -221,6 +228,7 @@
       <workItem from="1588759421173" duration="4574000" />
       <workItem from="1588769131325" duration="3000" />
       <workItem from="1588769300100" duration="3000" />
+      <workItem from="1588771788134" duration="2536000" />
     </task>
     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
       <created>1588438114130</created>
@@ -275,7 +283,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -292,14 +302,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="new updatess" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588763264854">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state x="184" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588771830141">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state x="184" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1588771830141" />
     <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.873@0.23.1440.873" timestamp="1588763264854" />
     <state x="457" y="250" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588763262933">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="457" y="250" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.873@0.23.1440.873" timestamp="1588763262933" />
+    <state x="632" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588771797827">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="632" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.812@0.23.1440.812" timestamp="1588771797827" />
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588429984598">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
@@ -312,25 +327,30 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
-    <state width="1398" height="128" key="GridCell.Tab.0.bottom" timestamp="1588771109816">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state width="1289" height="114" key="GridCell.Tab.0.bottom" timestamp="1588774657851">
+      <screen x="-1600" y="23" width="1600" height="877" />
     </state>
+    <state width="1289" height="114" key="GridCell.Tab.0.bottom/-1600.23.1600.877/0.23.1440.816@-1600.23.1600.877" timestamp="1588774657851" />
     <state width="1398" height="128" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1588771109816" />
-    <state width="1398" height="128" key="GridCell.Tab.0.center" timestamp="1588771109815">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state width="1289" height="114" key="GridCell.Tab.0.center" timestamp="1588774657850">
+      <screen x="-1600" y="23" width="1600" height="877" />
     </state>
+    <state width="1289" height="114" key="GridCell.Tab.0.center/-1600.23.1600.877/0.23.1440.816@-1600.23.1600.877" timestamp="1588774657850" />
     <state width="1398" height="128" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1588771109815" />
-    <state width="1398" height="128" key="GridCell.Tab.0.left" timestamp="1588771109814">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state width="1289" height="114" key="GridCell.Tab.0.left" timestamp="1588774657850">
+      <screen x="-1600" y="23" width="1600" height="877" />
     </state>
+    <state width="1289" height="114" key="GridCell.Tab.0.left/-1600.23.1600.877/0.23.1440.816@-1600.23.1600.877" timestamp="1588774657850" />
     <state width="1398" height="128" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1588771109814" />
-    <state width="1398" height="128" key="GridCell.Tab.0.right" timestamp="1588771109815">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state width="1289" height="114" key="GridCell.Tab.0.right" timestamp="1588774657851">
+      <screen x="-1600" y="23" width="1600" height="877" />
     </state>
+    <state width="1289" height="114" key="GridCell.Tab.0.right/-1600.23.1600.877/0.23.1440.816@-1600.23.1600.877" timestamp="1588774657851" />
     <state width="1398" height="128" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1588771109815" />
-    <state x="208" y="41" key="SettingsEditor" timestamp="1588237366099">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1588771816290">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1588771816290" />
     <state x="208" y="41" key="SettingsEditor/0.23.1440.873@0.23.1440.873" timestamp="1588237366099" />
     <state x="572" y="381" key="VCS.ChangelistChooser" timestamp="1588770257122">
       <screen x="0" y="23" width="1440" height="873" />
