@@ -1,22 +1,21 @@
 .button {
-    -fx-background-color: rgba(90, 147, 210, 0.8);
-    -fx-border-color: #7db2f2;
+    -fx-background-color: rgb(236, 190, 66);
+    -fx-border-color: #ecbe42;
     -fx-background-radius: 50 50 50 50;
     -fx-border-width: 7;
     -fx-border-radius: 30 30 30 30;
 
 }
 .button:hover {
-    -fx-background-color: #6e9fde;
+    -fx-background-color: #f3cb69;
     -fx-background-radius: 50 50 50 50;
     -fx-border-width: 7;
     -fx-border-radius: 30 30 30 30;
 }
 
 .button:pressed {
-    -fx-background-color: #7db2f2;
+    -fx-background-color: #f1d070;
     -fx-background-radius: 50 50 50 50;
     -fx-border-width: 7;
     -fx-border-radius: 30 30 30 30;
 }
-
