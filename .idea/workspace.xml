@@ -1,46 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="working on frontpage.fxml">
-      <change afterPath="$PROJECT_DIR$/src/CSS/learnClouds_front_background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSS/weatherForecastBackground.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSS/weatherForecastButtons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backgroundImages/background4_abstract_1900x1100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backgroundImages/learnCloudsbackground_clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backgroundImages/learningCloudsBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backgroundImages/learningCloudsBG2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontpageImages/learnMore_cloud_1500x1500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weatherForecast/frontpageWeatherForecast.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weatherForecast/weatherForecastController.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="working on weatherForecast page">
+      <change afterPath="$PROJECT_DIR$/src/CSS/backgroundImage_learningPages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSS/buttons_learningPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backgroundImages/abstractbackgrund_1400x1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontpageImages/sun2_1500x1500.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/cloud_ligtnning_1500x1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/cloud_rain_1500x1500.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_clouds.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_clouds.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_rain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_rain.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_wind.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/learn_wind.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/oceanwaves_1000x1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/rain_clouds_sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/raindrops_1500x1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/umbrella2_1500x1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/umbrella_1000x1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/wind_leafs_1000x1000_png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/learningPage/windmill_1000x1000.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/frontpage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/frontpage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/cloud_ligtnning_1500x1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/cloud_ligtnning_1500x1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/cloud_rain_1500x1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/cloud_rain_1500x1500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/learnClouds_front_background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/weatherForecastButtons.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learningPage/learn_clouds.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPage/learn_clouds.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_rain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPage/learn_rain.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/learningPage/learn_wind.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPage/learn_wind.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/oceanwaves_1000x1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/oceanwaves_1000x1000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/rain_clouds_sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/rain_clouds_sun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/raindrops_1500x1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/raindrops_1500x1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/umbrella2_1500x1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/umbrella2_1500x1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/umbrella_1000x1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/umbrella_1000x1000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/wind_leafs_1000x1000_png.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/wind_leafs_1000x1000_png.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/windmill_1000x1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningpageImages/windmill_1000x1000.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/frontpage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/frontpage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weatherForecast/frontpageWeatherForecast.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/weatherForecast/frontpageWeatherForecast.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +104,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/backgroundImages" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -142,19 +119,19 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/backgroundImages" />
-      <recent name="$PROJECT_DIR$/src/CSS" />
-      <recent name="$PROJECT_DIR$/src/frontpageImages" />
-      <recent name="$PROJECT_DIR$/src/learningpageImages" />
-      <recent name="$PROJECT_DIR$/src/learn_wind/learningWind" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/CSS" />
       <recent name="$PROJECT_DIR$/src/backgroundImages" />
       <recent name="$PROJECT_DIR$/src/frontpageImages" />
+      <recent name="$PROJECT_DIR$/src/CSS" />
       <recent name="$PROJECT_DIR$/src/sample/images" />
       <recent name="$PROJECT_DIR$/src/sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/frontpageImages" />
+      <recent name="$PROJECT_DIR$/src/backgroundImages" />
+      <recent name="$PROJECT_DIR$/src/CSS" />
+      <recent name="$PROJECT_DIR$/src/learningpageImages" />
+      <recent name="$PROJECT_DIR$/src/learn_wind/learningWind" />
     </key>
   </component>
   <component name="RunManager">
@@ -265,7 +242,9 @@
       <workItem from="1588779220545" duration="813000" />
       <workItem from="1588780276243" duration="4552000" />
       <workItem from="1588973303623" duration="5719000" />
-      <workItem from="1589041811166" duration="1350000" />
+      <workItem from="1589041811166" duration="4657000" />
+      <workItem from="1589064013795" duration="236000" />
+      <workItem from="1589064263099" duration="2508000" />
     </task>
     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
       <created>1588438114130</created>
@@ -351,7 +330,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1588977956406</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="working on weatherForecast page">
+      <created>1589043522721</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1589043522721</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +364,8 @@
     <MESSAGE value="new updatess" />
     <MESSAGE value="a small css test" />
     <MESSAGE value="working on frontpage.fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on frontpage.fxml" />
+    <MESSAGE value="working on weatherForecast page" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on weatherForecast page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="125" key="#Project_Structure" timestamp="1588778707696">
@@ -402,30 +388,34 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1588977139545" />
-    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1588977956007">
+    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1589043522416">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1588977956007" />
+    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589043522416" />
     <state x="535" y="360" key="Github.ShareDialog" timestamp="1588238422671">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
-    <state width="1373" height="308" key="GridCell.Tab.0.bottom" timestamp="1589042677633">
+    <state width="1320" height="308" key="GridCell.Tab.0.bottom" timestamp="1589066887471">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1373" height="308" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589042677633" />
-    <state width="1373" height="308" key="GridCell.Tab.0.center" timestamp="1589042677632">
+    <state width="1320" height="308" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589066887471" />
+    <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
+    <state width="1320" height="308" key="GridCell.Tab.0.center" timestamp="1589066887470">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1373" height="308" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589042677632" />
-    <state width="1373" height="308" key="GridCell.Tab.0.left" timestamp="1589042677632">
+    <state width="1320" height="308" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589066887470" />
+    <state width="1398" height="308" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
+    <state width="1320" height="308" key="GridCell.Tab.0.left" timestamp="1589066887470">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1373" height="308" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589042677632" />
-    <state width="1373" height="308" key="GridCell.Tab.0.right" timestamp="1589042677633">
+    <state width="1320" height="308" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589066887470" />
+    <state width="1398" height="308" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
+    <state width="1320" height="308" key="GridCell.Tab.0.right" timestamp="1589066887470">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1373" height="308" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589042677633" />
+    <state width="1320" height="308" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589066887470" />
+    <state width="1398" height="308" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
     <state x="144" y="100" key="MergeDialog" timestamp="1588777174830">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
@@ -446,10 +436,10 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="572" y="381" key="VCS.ChangelistChooser/0.23.1440.873@0.23.1440.873" timestamp="1588770257122" />
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1588977958456">
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1589043524497">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1588977958456" />
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1589043524497" />
     <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588754082800">
       <screen x="0" y="23" width="1440" height="873" />
     </state>

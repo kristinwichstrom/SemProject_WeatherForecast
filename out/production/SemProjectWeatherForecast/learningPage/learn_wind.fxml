@@ -4,90 +4,46 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="800" maxWidth="1280" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1280" style="-fx-background-color: #4F98B9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningPage.learningPageController">
-   <left>
-      <Pane prefHeight="350.0" prefWidth="150.0" style="-fx-background-color: #C4E4EB;" BorderPane.alignment="CENTER" />
-   </left>
-   <right>
-      <Pane prefHeight="350.0" prefWidth="150.0" style="-fx-background-color: #C4E4EB;" BorderPane.alignment="CENTER">
-         <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="362.0" mnemonicParsing="false" style="-fx-background-radius: 20 20 20 20;" text="Learn more" />
-         </children>
-      </Pane>
-   </right>
-   <top>
-      <Pane prefHeight="129.0" prefWidth="960.0" style="-fx-background-color: #C4E4EB;" BorderPane.alignment="CENTER">
-         <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="337.0" layoutY="25.0" prefHeight="91.0" prefWidth="757.0" style="-fx-background-color: #C4E4EB;" text="LEARN ABOUT: WIND" textFill="#4da2c6">
-               <font>
-                  <Font name="Helvetica Neue Bold" size="60.0" />
-               </font>
-            </Label>
-         </children>
-      </Pane>
-   </top>
-   <center>
-      <GridPane prefHeight="392.0" prefWidth="572.0" BorderPane.alignment="CENTER">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="100.0" prefHeight="180.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="100.0" prefHeight="180.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="100.0" prefHeight="180.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="100.0" prefHeight="180.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Text fill="#f7f9fa" strokeType="OUTSIDE" strokeWidth="0.0" text="The wind blows the leaves around." GridPane.columnIndex="1">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="126.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
-               <image>
-                  <Image url="@../learningpageImages/wind_leafs_1000x1000_png.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="124.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
-               <image>
-                  <Image url="@../learningpageImages/oceanwaves_1000x1000.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="128.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
-               <image>
-                  <Image url="@../learningpageImages/umbrella_1000x1000.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="125.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
-               <image>
-                  <Image url="@../learningpageImages/windmill_1000x1000.png" />
-               </image>
-            </ImageView>
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="The wind blows the leaves around" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Text>
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="When the wind blows it can be hard to hold your umbrella" wrappingWidth="314.1773681640625" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Text>
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="The wind blows the leaves around" GridPane.columnIndex="1" GridPane.rowIndex="3">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </Text>
-         </children>
-      </GridPane>
-   </center>
-</BorderPane>
+<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" styleClass="learnwindbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningPage.learningPageController">
+   <children>
+      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="161.0" text="What are winds?" textFill="WHITE">
+         <font>
+            <Font name="Ariana Pro Regular" size="60.0" />
+         </font>
+      </Label>
+      <Text fill="#063979" layoutX="102.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wind is the movement of air. They bring cool air into warm areas. But they can also bring snow, dust or even sand." wrappingWidth="454.9735107421875">
+         <font>
+            <Font name="Ariana Pro Regular" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#034494" layoutX="42.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Depending on their strength, winds can be known as a breeze, gale, storm or hurricane. Learn more about that on the next page " wrappingWidth="187.0610809326172">
+         <font>
+            <Font name="Ariana Pro Regular" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="913.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds  are  invisible but we can hear them when they move through the trees, see that leaves are dancing around and we can feel it on our skin." wrappingWidth="303.32080078125">
+         <font>
+            <Font name="Ariana Pro Regular" size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="254.0" fitWidth="254.0" layoutX="478.0" layoutY="425.0">
+         <image>
+            <Image url="@../learningpageImages/umbrella_1000x1000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="269.0" fitWidth="318.0" layoutX="911.0" layoutY="64.0">
+         <image>
+            <Image url="@../learningpageImages/wind_leafs_1000x1000_png.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
