@@ -1,4 +1,4 @@
-package sample;
+package controllers;
 
 
 import javafx.event.ActionEvent;
@@ -9,8 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-public class frontpageController {
-
+public class front_frontpageController {
 
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
         System.out.println("Clicked the weather forecast button");
@@ -25,8 +24,9 @@ public class frontpageController {
     }
 
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {
+
         System.out.println("Clicked the learning page button");
-        Parent learningPageFront = FXMLLoader.load(getClass().getResource("../learningPage/learn_front.fxml"));
+        Parent learningPageFront = FXMLLoader.load(getClass().getResource("../learningPageFXML/learn_front.fxml"));
         Scene learningPageFrontScene = new Scene(learningPageFront);
 
         //Gets Stage information

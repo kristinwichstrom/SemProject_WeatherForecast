@@ -1,9 +1,9 @@
-package learningPage;
+package controllers;
 
 import javafx.event.ActionEvent;
 import javafx.scene.Parent;
 
-public class learningPageController {
+public class learn_frontpageController {
 
     public void button_wind_learnMore(ActionEvent actionEvent) {
 
