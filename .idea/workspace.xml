@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="switching between scenes from frontpage works, working on shortening the methods">
-      <change afterPath="$PROJECT_DIR$/src/controllers/learn_cloudsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/learn_rainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/learn_windController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="switching between scenes from frontpage works, working on shortening the methods + added controller folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/frontpageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/sample/frontpageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_clouds.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPageFXML/learn_clouds.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_front.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPageFXML/learn_front.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_rain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPageFXML/learn_rain.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learn_wind.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/learningPageFXML/learn_wind.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPage/learningPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/learningPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/frontpage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/frontpage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/frontpageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/frontpageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecast/frontpageWeatherForecast.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/weatherForecast/frontpageWeatherForecast.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecast/weatherForecastController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/weatherForecastController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +229,7 @@
       <workItem from="1588973303623" duration="5719000" />
       <workItem from="1589041811166" duration="4657000" />
       <workItem from="1589064013795" duration="236000" />
-      <workItem from="1589064263099" duration="12091000" />
+      <workItem from="1589064263099" duration="12379000" />
     </task>
     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
       <created>1588438114130</created>
@@ -359,7 +345,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1589114696089</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="switching between scenes from frontpage works, working on shortening the methods + added controller folder">
+      <created>1589118439764</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1589118439764</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +382,8 @@
     <MESSAGE value="working on weatherForecast page" />
     <MESSAGE value="Added a page to learn about" />
     <MESSAGE value="switching between scenes from frontpage works, working on shortening the methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="switching between scenes from frontpage works, working on shortening the methods" />
+    <MESSAGE value="switching between scenes from frontpage works, working on shortening the methods + added controller folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="switching between scenes from frontpage works, working on shortening the methods + added controller folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="125" key="#Project_Structure" timestamp="1588778707696">
@@ -413,33 +406,33 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1588977139545" />
-    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1589115117480">
+    <state x="247" y="23" key="CommitChangelistDialog2" timestamp="1589118439568">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589115117480" />
+    <state x="247" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589118439568" />
     <state x="535" y="360" key="Github.ShareDialog" timestamp="1588238422671">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
-    <state width="1320" height="308" key="GridCell.Tab.0.bottom" timestamp="1589117676931">
+    <state width="1320" height="308" key="GridCell.Tab.0.bottom" timestamp="1589118451286">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589117676931" />
+    <state width="1320" height="308" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589118451286" />
     <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
-    <state width="1320" height="308" key="GridCell.Tab.0.center" timestamp="1589117676930">
+    <state width="1320" height="308" key="GridCell.Tab.0.center" timestamp="1589118451285">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589117676930" />
+    <state width="1320" height="308" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589118451285" />
     <state width="1398" height="308" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
-    <state width="1320" height="308" key="GridCell.Tab.0.left" timestamp="1589117676930">
+    <state width="1320" height="308" key="GridCell.Tab.0.left" timestamp="1589118451285">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589117676930" />
+    <state width="1320" height="308" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589118451285" />
     <state width="1398" height="308" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
-    <state width="1320" height="308" key="GridCell.Tab.0.right" timestamp="1589117676931">
+    <state width="1320" height="308" key="GridCell.Tab.0.right" timestamp="1589118451286">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1320" height="308" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589117676931" />
+    <state width="1320" height="308" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589118451286" />
     <state width="1398" height="308" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
     <state x="144" y="100" key="MergeDialog" timestamp="1588777174830">
       <screen x="0" y="23" width="1440" height="873" />
@@ -461,10 +454,10 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="572" y="381" key="VCS.ChangelistChooser/0.23.1440.873@0.23.1440.873" timestamp="1588770257122" />
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1589114697663">
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1589118441334">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1589114697663" />
+    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1589118441334" />
     <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588754082800">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
