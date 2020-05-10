@@ -1,0 +1,43 @@
+.button {
+    -fx-background-color: rgb(183, 216, 225);
+    -fx-background-radius: 50 50 50 50;
+}
+.button:hover {
+    -fx-background-color: #c0d9e0;
+    -fx-background-radius: 50 50 50 50;
+}
+.button:pressed {
+    -fx-background-color: #aac4cb;
+    -fx-background-radius: 50 50 50 50;
+
+}
+
+.buttonLearnMore {
+    -fx-background-color: rgb(253, 153, 39);
+    -fx-background-radius: 20 20 20 20;
+}
+.buttonLearnMore:hover {
+    -fx-background-color: #fcb053;
+    -fx-background-radius: 20 20 20 20;
+}
+.buttonLearnMore:pressed {
+    -fx-background-color: #f1880e;
+    -fx-background-radius: 20 20 20 20;
+
+}
+
+.buttonBackHome {
+    -fx-background-color: rgb(73, 130, 182);
+    -fx-background-radius: 20 20 20 20;
+}
+.buttonBackHome:hover {
+    -fx-background-color: #5c98cd;
+    -fx-background-radius: 20 20 20 20;
+}
+.buttonBackHome:pressed {
+    -fx-background-color: #2677bd;
+    -fx-background-radius: 20 20 20 20;
+
+}
+
+
