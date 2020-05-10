@@ -1,4 +1,4 @@
-package weatherForecastFXML;
+package fxml_weatherForecast;
 
 public class weather_tomorrowController {
 }

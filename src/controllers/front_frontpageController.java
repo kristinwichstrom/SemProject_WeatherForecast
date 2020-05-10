@@ -13,7 +13,7 @@ public class front_frontpageController {
 
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
         System.out.println("Clicked the weather forecast button");
-        Parent forecastFront = FXMLLoader.load(getClass().getResource("../weatherForecastFXML/weather_frontpage.fxml"));
+        Parent forecastFront = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
         Scene forecastFrontScene = new Scene(forecastFront);
 
         //Gets Stage information
@@ -26,7 +26,7 @@ public class front_frontpageController {
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {
 
         System.out.println("Clicked the learning page button");
-        Parent learningPageFront = FXMLLoader.load(getClass().getResource("../learningPageFXML/learn_front.fxml"));
+        Parent learningPageFront = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_front.fxml"));
         Scene learningPageFrontScene = new Scene(learningPageFront);
 
         //Gets Stage information
