@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]" date="1589127278491" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10/05/2020, 18.14 [Default]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/learningpageImages/boots.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]/boots.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/learningpageImages/rain.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]/rain.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/SemProjectWeatherForecast/learningPage/learningPageController.class" />
+    <option name="AFTER_PATH" value="out/production/SemProjectWeatherForecast/learningPage/learningPageController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]/learningPageController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/learningpageImages/umbrella.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]/umbrella.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/learningpageImages/clouds.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020,_18_14_[Default]/clouds.png" />
+  </binary>
+</changelist>
