@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="800" prefWidth="1280" styleClass="weatherforecastbg" stylesheets="@../CSS/weatherForecastBackground.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherForecast.weatherForecastController">
+   <children>
+      <Button layoutX="93.0" layoutY="365.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/weatherForecastButtons.css" text="Tomorrow" textFill="#2a61a1" />
+      <Button layoutX="387.0" layoutY="365.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/weatherForecastButtons.css" text="The day after tomorrow" />
+      <Button layoutX="95.0" layoutY="520.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/weatherForecastButtons.css" text="Button" />
+      <Button layoutX="390.0" layoutY="518.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/weatherForecastButtons.css" text="Button" />
+      <Label layoutX="94.0" layoutY="147.0" prefHeight="127.0" prefWidth="634.0" text="Weather forecast" textFill="WHITE">
+         <font>
+            <Font name="Ariana Pro Regular" size="70.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="764.0" layoutY="60.0">
+         <image>
+            <Image url="@../frontpageImages/sun_1500x1500.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

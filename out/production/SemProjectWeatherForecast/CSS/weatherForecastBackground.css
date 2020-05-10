@@ -1,0 +1,6 @@
+.weatherforecastbg {
+    -fx-background-image: url("/backgroundImages/background4_abstract_1900x1100.png");
+    -fx-opacity: 100;
+    -fx-background-color: #71a9da;
+
+}

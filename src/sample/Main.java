@@ -12,7 +12,7 @@ public class Main extends Application { //The core functionality of JavaFX is in
     public void start(Stage primaryStage) throws Exception{ // Calls the primary stage
 
         /*
-         * The page loading is now the frontpage, just change it if you want to test something :)
+         * The page loading is now the front page, just change it if you want to test something :)
          */
 
         Parent root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
