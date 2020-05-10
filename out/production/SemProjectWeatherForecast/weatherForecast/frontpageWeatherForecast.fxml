@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="800" prefWidth="1280" styleClass="weatherforecastbg" stylesheets="@../CSS/weatherForecastBackground.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.weatherForecastController">
+<AnchorPane prefHeight="800" prefWidth="1280" styleClass="weatherforecastbg" stylesheets="@../CSS/weatherForecastBackground.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.weather_frontpageController">
    <children>
       <Button layoutX="93.0" layoutY="365.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Tomorrow" textFill="#2a61a1" />
       <Button layoutX="387.0" layoutY="365.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="The day after tomorrow" />
