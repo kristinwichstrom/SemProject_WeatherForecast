@@ -12,14 +12,14 @@ public class Main extends Application { //The core functionality of JavaFX is in
     public void start(Stage primaryStage) throws Exception{ // Calls the primary stage
 
         /*
-         * The page loading is now the frontpage, just change it if you want to test something :)
+         * The page loading is now the front page, just change it if you want to test something :)
          */
 
         Parent root = FXMLLoader.load(getClass().getResource("../sample/frontPage.fxml"));
-       primaryStage.setFullScreen(true);
+       //primaryStage.setFullScreen(true);
         primaryStage.setTitle("My Weather Forecast");
-        primaryStage.setMinHeight(250); // Controls that the user doesn't decrease the screen size to a problematic size
-        primaryStage.setMinWidth(500);
+        primaryStage.setMinHeight(800); // Controls that the user doesn't decrease the screen size to a problematic size
+        primaryStage.setMinWidth(1280);
         primaryStage.setMaxHeight(800);
         primaryStage.setMaxWidth(1280);
         primaryStage.setScene(new Scene(root, 1280, 800));

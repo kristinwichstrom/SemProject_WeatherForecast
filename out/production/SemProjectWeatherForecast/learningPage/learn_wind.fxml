@@ -10,11 +10,11 @@
 
 <AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" styleClass="learnwindbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningPage.learningPageController">
    <children>
-      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
+      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_wind_learnMore" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
       <Label layoutX="95.0" layoutY="161.0" text="What are winds?" textFill="WHITE">
          <font>
             <Font name="Ariana Pro Regular" size="60.0" />

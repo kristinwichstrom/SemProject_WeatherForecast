@@ -16,12 +16,12 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b8d9e3" height="804.0" layoutX="763.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="516.0" />
-      <Button layoutX="876.0" layoutY="235.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Weather forecast" textFill="#285a83">
+      <Button layoutX="876.0" layoutY="235.0" mnemonicParsing="false" onAction="#buttonWeatherForecast" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Weather forecast" textFill="#285a83">
          <font>
             <Font name="Ariana Pro Regular" size="21.0" />
          </font>
       </Button>
-      <Button layoutX="875.0" layoutY="496.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Learn about the weather" textFill="#204b6f">
+      <Button layoutX="875.0" layoutY="496.0" mnemonicParsing="false" onAction="#buttonLearnAbout" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Learn about the weather" textFill="#204b6f">
          <font>
             <Font name="Ariana Pro Regular" size="20.0" />
          </font>
