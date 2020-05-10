@@ -13,7 +13,7 @@ public class front_frontpageController {
 
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
         System.out.println("Clicked the weather forecast button");
-        Parent forecastFront = FXMLLoader.load(getClass().getResource("../weatherForecast/frontpageWeatherForecast.fxml"));
+        Parent forecastFront = FXMLLoader.load(getClass().getResource("../weatherForecastFXML/weather_frontpage.fxml"));
         Scene forecastFrontScene = new Scene(forecastFront);
 
         //Gets Stage information

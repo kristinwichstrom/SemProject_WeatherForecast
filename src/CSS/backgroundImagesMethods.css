@@ -4,3 +4,9 @@
     -fx-background-color: #71a9da;
 
 }
+.clouds_bodybg {
+    -fx-background-image: url("/backgroundImages/background_cloud.png");
+    -fx-opacity: 70;
+    -fx-background-color: #99caea;
+
+}
