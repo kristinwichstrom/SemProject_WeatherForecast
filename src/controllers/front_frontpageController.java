@@ -1,7 +1,6 @@
 package controllers;
-
-
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -10,29 +9,25 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class front_frontpageController {
+    Parent root;
+    Stage stage;
 
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
-        System.out.println("Clicked the weather forecast button");
-        Parent forecastFront = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
-        Scene forecastFrontScene = new Scene(forecastFront);
-
-        //Gets Stage information
-        Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
-        window.setScene(forecastFrontScene);
-        window.show();
-
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
+        stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+        getScene();
     }
 
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {
 
-        System.out.println("Clicked the learning page button");
-        Parent learningPageFront = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_front.fxml"));
-        Scene learningPageFrontScene = new Scene(learningPageFront);
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_front.fxml"));
+        stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+        getScene();
 
-        //Gets Stage information
-        Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
-        window.setScene(learningPageFrontScene);
-        window.show();
-
+    }
+    public void getScene () {
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 }

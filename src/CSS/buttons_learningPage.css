@@ -14,21 +14,27 @@
 
 .buttonLearnMore {
     -fx-background-color: rgb(253, 153, 39);
-    -fx-background-radius: 20 20 20 20;
+    -fx-background-radius: 30 30 30 30;
+    -fx-font-family: "Ariana Pro";
+    -fx-font-size: 22;
+    -fx-text-fill: #ffffff;
 }
 .buttonLearnMore:hover {
     -fx-background-color: #fcb053;
-    -fx-background-radius: 20 20 20 20;
+    -fx-background-radius: 30 30 30 30;
 }
 .buttonLearnMore:pressed {
     -fx-background-color: #f1880e;
-    -fx-background-radius: 20 20 20 20;
+    -fx-background-radius: 30 30 30 30;
 
 }
 
 .buttonBackHome {
     -fx-background-color: rgb(73, 130, 182);
     -fx-background-radius: 30 30 30 30;
+    -fx-font-family: "Ariana Pro";
+    -fx-font-size: 22;
+    -fx-text-fill: #ffffff;
 }
 .buttonBackHome:hover {
     -fx-background-color: #5c98cd;

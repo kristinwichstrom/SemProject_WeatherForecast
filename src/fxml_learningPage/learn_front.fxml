@@ -22,7 +22,7 @@
           <RowConstraints maxHeight="534.0" minHeight="10.0" prefHeight="174.88357543945312" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" prefHeight="130.0" prefWidth="314.0" stylesheets="@../CSS/LP_MenuButton.css" text="CLOUDS" textFill="WHITE">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" onAction="#learnCloudsButton" prefHeight="130.0" prefWidth="314.0" stylesheets="@../CSS/LP_MenuButton.css" text="CLOUDS" textFill="WHITE">
                <font>
                   <Font name="Umba Soft Alt Bold" size="35.0" />
                </font>
@@ -30,19 +30,19 @@
                   <Insets left="20.0" />
                </GridPane.margin>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" prefHeight="163.0" prefWidth="0.0" stylesheets="@../CSS/LP_MenuButton.css" text="WIND" textFill="WHITE" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" onAction="#learnWindButton" prefHeight="163.0" prefWidth="0.0" stylesheets="@../CSS/LP_MenuButton.css" text="WIND" textFill="WHITE" GridPane.rowIndex="1">
                <font>
                   <Font name="Helvetica Neue Bold" size="33.0" />
                </font>
                <GridPane.margin>
                   <Insets left="20.0" />
                </GridPane.margin></Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" prefWidth="0.0" stylesheets="@../CSS/LP_MenuButton.css" text="TEMPERATURE" textFill="WHITE" GridPane.columnIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" onAction="#learnTempButton" prefWidth="0.0" stylesheets="@../CSS/LP_MenuButton.css" text="TEMPERATURE" textFill="WHITE" GridPane.columnIndex="1">
                <font>
                   <Font name="Umba Soft Alt Bold" size="34.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" prefWidth="0.0" stylesheets="@../CSS/LP_MenuButton.css" text="RAIN" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="130.0" maxWidth="370.0" mnemonicParsing="false" onAction="#learnRainButton" prefWidth="0.0" stylesheets="@../CSS/LP_MenuButton.css" text="RAIN" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font name="Helvetica Neue Bold" size="33.0" />
                </font></Button>

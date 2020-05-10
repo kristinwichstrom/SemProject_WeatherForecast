@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="141.0" fitWidth="213.0" layoutX="16.0" layoutY="511.0">
          <image>
-            <Image url="@../frontpageImages/abstractClouds_1000x1000.png" />
+            <Image url="@../images_frontpage/abstractClouds_1000x1000.png" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b8d9e3" height="804.0" layoutX="763.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="516.0" />
@@ -33,27 +33,27 @@
       </Label>
       <ImageView fitHeight="481.0" fitWidth="498.0" layoutX="547.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../frontpageImages/raindrops_abstract_1000x1000.png" />
+            <Image url="@../images_frontpage/raindrops_abstract_1000x1000.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="216.0" fitWidth="255.0" layoutX="78.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../frontpageImages/ting.png" />
+            <Image url="@../images_frontpage/ting.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="499.0" layoutY="484.0">
          <image>
-            <Image url="@../frontpageImages/cloud_white_smile.png" />
+            <Image url="@../images_frontpage/cloud_white_smile.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="160.0" fitWidth="164.0" layoutX="1092.0" layoutY="393.0">
          <image>
-            <Image url="@../frontpageImages/learnMore_cloud_1500x1500.png" />
+            <Image url="@../images_frontpage/learnMore_cloud_1500x1500.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="177.0" layoutY="32.0">
          <image>
-            <Image url="@../frontpageImages/sun2_1500x1500.png" />
+            <Image url="@../images_frontpage/sun2_1500x1500.png" />
          </image>
       </ImageView>
    </children>
