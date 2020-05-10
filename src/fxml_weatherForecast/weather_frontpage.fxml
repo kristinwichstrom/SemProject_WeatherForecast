@@ -20,7 +20,7 @@
       </Label>
       <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="764.0" layoutY="60.0">
          <image>
-            <Image url="@../frontpageImages/sun_1500x1500.png" />
+            <Image url="@../images_frontpage/sun_1500x1500.png" />
          </image>
       </ImageView>
       <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false" onAction="#homeButton" prefHeight="70.0" prefWidth="161.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">

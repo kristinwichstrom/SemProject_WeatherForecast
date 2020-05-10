@@ -37,12 +37,12 @@
       </Text>
       <ImageView fitHeight="254.0" fitWidth="254.0" layoutX="478.0" layoutY="425.0">
          <image>
-            <Image url="@../learningpageImages/umbrella_1000x1000.png" />
+            <Image url="@../images_learningPage/umbrella_1000x1000.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="269.0" fitWidth="318.0" layoutX="911.0" layoutY="64.0">
          <image>
-            <Image url="@../learningpageImages/wind_leafs_1000x1000_png.png" />
+            <Image url="@../images_learningPage/wind_leafs_1000x1000_png.png" />
          </image>
       </ImageView>
    </children>
