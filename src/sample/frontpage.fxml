@@ -8,20 +8,20 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" style="-fx-background-color: #4183BC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.frontpageController">
+<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" style="-fx-background-color: #4183BC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.front_frontpageController">
    <children>
       <ImageView fitHeight="141.0" fitWidth="213.0" layoutX="16.0" layoutY="511.0">
          <image>
-            <Image url="@../frontpageImages/abstractClouds_1000x1000.png" />
+            <Image url="@../images_frontpage/abstractClouds_1000x1000.png" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b8d9e3" height="804.0" layoutX="763.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="516.0" />
-      <Button layoutX="876.0" layoutY="235.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Weather forecast" textFill="#285a83">
+      <Button layoutX="876.0" layoutY="235.0" mnemonicParsing="false" onAction="#buttonWeatherForecast" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Weather forecast" textFill="#285a83">
          <font>
             <Font name="Ariana Pro Regular" size="21.0" />
          </font>
       </Button>
-      <Button layoutX="875.0" layoutY="496.0" mnemonicParsing="false" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Learn about the weather" textFill="#204b6f">
+      <Button layoutX="875.0" layoutY="496.0" mnemonicParsing="false" onAction="#buttonLearnAbout" prefHeight="124.0" prefWidth="294.0" stylesheets="@../CSS/frontPage.css" text="Learn about the weather" textFill="#204b6f">
          <font>
             <Font name="Ariana Pro Regular" size="20.0" />
          </font>
@@ -33,27 +33,27 @@
       </Label>
       <ImageView fitHeight="481.0" fitWidth="498.0" layoutX="547.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../frontpageImages/raindrops_abstract_1000x1000.png" />
+            <Image url="@../images_frontpage/raindrops_abstract_1000x1000.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="216.0" fitWidth="255.0" layoutX="78.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../frontpageImages/ting.png" />
+            <Image url="@../images_frontpage/ting.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="499.0" layoutY="484.0">
          <image>
-            <Image url="@../frontpageImages/cloud_white_smile.png" />
+            <Image url="@../images_frontpage/cloud_white_smile.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="160.0" fitWidth="164.0" layoutX="1092.0" layoutY="393.0">
          <image>
-            <Image url="@../frontpageImages/learnMore_cloud_1500x1500.png" />
+            <Image url="@../images_frontpage/learnMore_cloud_1500x1500.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="177.0" layoutY="32.0">
          <image>
-            <Image url="@../frontpageImages/sun2_1500x1500.png" />
+            <Image url="@../images_frontpage/sun2_1500x1500.png" />
          </image>
       </ImageView>
    </children>

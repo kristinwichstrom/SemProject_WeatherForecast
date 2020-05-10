@@ -1,12 +1,12 @@
 .cloudsbg {
-    -fx-background-image: url("/backgroundImages/learningCloudsBG.png");
+    -fx-background-image: url("/images_backgroundImages/learningCloudsBG.png");
     -fx-opacity: 70;
     -fx-background-color: #99caea;
 
 }
 
 .learnwindbg {
-    -fx-background-image: url("/backgroundImages/abstractbackgrund_1400x1000.png");
+    -fx-background-image: url("/images_backgroundImages/abstractbackgrund_1400x1000.png");
     -fx-opacity: 70;
     -fx-background-color: #99caea;
 

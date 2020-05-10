@@ -16,10 +16,10 @@ public class Main extends Application { //The core functionality of JavaFX is in
          */
 
         Parent root = FXMLLoader.load(getClass().getResource("../sample/frontPage.fxml"));
-       primaryStage.setFullScreen(true);
+       //primaryStage.setFullScreen(true);
         primaryStage.setTitle("My Weather Forecast");
-        primaryStage.setMinHeight(250); // Controls that the user doesn't decrease the screen size to a problematic size
-        primaryStage.setMinWidth(500);
+        primaryStage.setMinHeight(800); // Controls that the user doesn't decrease the screen size to a problematic size
+        primaryStage.setMinWidth(1280);
         primaryStage.setMaxHeight(800);
         primaryStage.setMaxWidth(1280);
         primaryStage.setScene(new Scene(root, 1280, 800));

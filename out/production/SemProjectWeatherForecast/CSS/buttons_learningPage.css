@@ -28,15 +28,15 @@
 
 .buttonBackHome {
     -fx-background-color: rgb(73, 130, 182);
-    -fx-background-radius: 20 20 20 20;
+    -fx-background-radius: 30 30 30 30;
 }
 .buttonBackHome:hover {
     -fx-background-color: #5c98cd;
-    -fx-background-radius: 20 20 20 20;
+    -fx-background-radius: 30 30 30 30;
 }
 .buttonBackHome:pressed {
     -fx-background-color: #2677bd;
-    -fx-background-radius: 20 20 20 20;
+    -fx-background-radius: 30 30 30 30;
 
 }
 

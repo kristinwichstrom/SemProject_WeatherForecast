@@ -8,13 +8,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" styleClass="learnwindbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningPage.learningPageController">
+<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" styleClass="learnwindbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.learn_windController">
    <children>
-      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
+      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_wind_learnMore" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
       <Label layoutX="95.0" layoutY="161.0" text="What are winds?" textFill="WHITE">
          <font>
             <Font name="Ariana Pro Regular" size="60.0" />
@@ -37,12 +37,12 @@
       </Text>
       <ImageView fitHeight="254.0" fitWidth="254.0" layoutX="478.0" layoutY="425.0">
          <image>
-            <Image url="@../learningpageImages/umbrella_1000x1000.png" />
+            <Image url="@../images_learningPage/umbrella_1000x1000.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="269.0" fitWidth="318.0" layoutX="911.0" layoutY="64.0">
          <image>
-            <Image url="@../learningpageImages/wind_leafs_1000x1000_png.png" />
+            <Image url="@../images_learningPage/wind_leafs_1000x1000_png.png" />
          </image>
       </ImageView>
    </children>

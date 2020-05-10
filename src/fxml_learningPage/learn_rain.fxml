@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="800" maxWidth="1280" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1280" style="-fx-background-color: #4F98B9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningPage.learningPageController">
+<BorderPane maxHeight="800" maxWidth="1280" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="1280" style="-fx-background-color: #4F98B9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.learn_windController">
     <left>
         <Pane prefHeight="350.0" prefWidth="150.0" style="-fx-background-color: #C4E4EB;" BorderPane.alignment="CENTER" />
     </left>
@@ -54,17 +54,17 @@
                 </Text>
                 <ImageView fitHeight="126.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                     <image>
-                        <Image url="@../learningpageImages/rain_clouds_sun.png" />
+                        <Image url="@../images_learningPage/rain_clouds_sun.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="124.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                     <image>
-                        <Image url="@../learningpageImages/umbrella2_1500x1500.png" />
+                        <Image url="@../images_learningPage/umbrella2_1500x1500.png" />
                     </image>
                 </ImageView>
                 <ImageView fitHeight="128.0" fitWidth="140.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                     <image>
-                        <Image url="@../learningpageImages/raindrops_1500x1500.png" />
+                        <Image url="@../images_learningPage/raindrops_1500x1500.png" />
                     </image>
                 </ImageView>
                 <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
