@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="updated buttons">
-      <change beforePath="$PROJECT_DIR$/src/controllers/front_frontpageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/front_frontpageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPageFXML/learn_clouds.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learningPage/learn_clouds.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPageFXML/learn_front.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learningPage/learn_front.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPageFXML/learn_rain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learningPage/learn_rain.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learningPageFXML/learn_wind.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learningPage/learn_wind.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecastFXML/weather_frontpage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/weather_frontpage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecastFXML/weather_today.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/weather_today.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecastFXML/weather_todayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/weather_todayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecastFXML/weather_tomorrow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/weather_tomorrow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weatherForecastFXML/weather_tomorrowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/weather_tomorrowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images_learningPage/boots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images_learningPage/clouds with rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images_learningPage/condensation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images_learningPage/umbrella.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml_learningPage/learn_wind.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learningPage/learn_wind.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,19 +109,19 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/frontpageImages" />
-      <recent name="$PROJECT_DIR$/src/backgroundImages" />
-      <recent name="$PROJECT_DIR$/src/CSS" />
-      <recent name="$PROJECT_DIR$/src/learningpageImages" />
-      <recent name="$PROJECT_DIR$/src/learn_wind/learningWind" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/backgroundImages" />
       <recent name="$PROJECT_DIR$/src/frontpageImages" />
       <recent name="$PROJECT_DIR$/src/CSS" />
       <recent name="$PROJECT_DIR$/src/sample/images" />
       <recent name="$PROJECT_DIR$/src/sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images_learningPage" />
+      <recent name="$PROJECT_DIR$/src/frontpageImages" />
+      <recent name="$PROJECT_DIR$/src/backgroundImages" />
+      <recent name="$PROJECT_DIR$/src/CSS" />
+      <recent name="$PROJECT_DIR$/src/learningpageImages" />
     </key>
   </component>
   <component name="RunManager">
@@ -458,9 +454,10 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="144" y="100" key="MergeDialog/0.23.1440.873@0.23.1440.873" timestamp="1588777174830" />
-    <state x="433" y="183" key="MultipleFileMergeDialog" timestamp="1588777177724">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state x="433" y="174" width="497" height="252" key="MultipleFileMergeDialog" timestamp="1589127344939">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state x="433" y="174" width="497" height="252" key="MultipleFileMergeDialog/-1600.23.1600.877/0.23.1440.823@0.23.1440.823" timestamp="1589127344939" />
     <state x="433" y="183" key="MultipleFileMergeDialog/0.23.1440.873@0.23.1440.873" timestamp="1588777177724" />
     <state x="208" y="41" key="SettingsEditor" timestamp="1589117486925">
       <screen x="0" y="23" width="1440" height="873" />
@@ -482,9 +479,11 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="399" y="292" key="com.intellij.ide.util.TipDialog/0.23.1440.873@0.23.1440.873" timestamp="1588754082800" />
-    <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588973316009">
-      <screen x="0" y="23" width="1440" height="873" />
+    <state x="509" y="362" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589147938101">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
+    <state x="509" y="362" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1600.23.1600.877/0.23.1440.823@0.23.1440.823" timestamp="1589127340971" />
+    <state x="509" y="362" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1589147938101" />
     <state x="509" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1588973316009" />
     <state x="364" y="367" key="git4idea.ui.GitStashDialog" timestamp="1588758311187">
       <screen x="0" y="23" width="1440" height="873" />
