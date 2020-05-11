@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280" styleClass="learnwindbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.learn_windController">
+   <children>
+      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_wind_learnMore" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="161.0" text="What are winds?" textFill="WHITE">
+         <font>
+            <Font name="Ariana Pro Regular" size="60.0" />
+         </font>
+      </Label>
+      <Text fill="#063979" layoutX="102.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wind is the movement of air. They bring cool air into warm areas. But they can also bring snow, dust or even sand." wrappingWidth="454.9735107421875">
+         <font>
+            <Font name="Ariana Pro Regular" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#034494" layoutX="42.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Depending on their strength, winds can be known as a breeze, gale, storm or hurricane. Learn more about that on the next page " wrappingWidth="187.0610809326172">
+         <font>
+            <Font name="Ariana Pro Regular" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="913.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds  are  invisible but we can hear them when they move through the trees, see that leaves are dancing around and we can feel it on our skin." wrappingWidth="303.32080078125">
+         <font>
+            <Font name="Ariana Pro Regular" size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="254.0" fitWidth="254.0" layoutX="478.0" layoutY="425.0">
+         <image>
+            <Image url="@../images_learningPage/umbrella_1000x1000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="269.0" fitWidth="318.0" layoutX="911.0" layoutY="64.0">
+         <image>
+            <Image url="@../images_learningPage/wind_leafs_1000x1000_png.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

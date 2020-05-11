@@ -1,0 +1,12 @@
+.weatherforecastbg {
+    -fx-background-image: url("/images_backgroundImages/background4_abstract_1900x1100.png");
+    -fx-opacity: 100;
+    -fx-background-color: #71a9da;
+
+}
+.clouds_bodybg {
+    -fx-background-image: url("/images_backgroundImages/background_cloud.png");
+    -fx-opacity: 70;
+    -fx-background-color: #99caea;
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800" prefWidth="1280" styleClass="weatherforecastbg" stylesheets="@../CSS/backgroundImagesMethods.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.weather_frontpageController">
+   <children>
+      <Button layoutX="93.0" layoutY="365.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Tomorrow" textFill="#2a61a1" />
+      <Button layoutX="387.0" layoutY="365.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="The day after tomorrow" />
+      <Button layoutX="95.0" layoutY="520.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Button" />
+      <Button layoutX="390.0" layoutY="518.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Button" />
+      <Label layoutX="94.0" layoutY="147.0" prefHeight="127.0" prefWidth="634.0" text="Weather forecast" textFill="WHITE">
+         <font>
+            <Font name="Ariana Pro Regular" size="70.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="764.0" layoutY="60.0">
+         <image>
+            <Image url="@../images_frontpage/sun_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false" onAction="#homeButton" prefHeight="70.0" prefWidth="161.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
