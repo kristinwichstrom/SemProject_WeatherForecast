@@ -1,3 +1,8 @@
+/*
+ * This class runs the start method, which is the first method to be called in the program.
+ * It holds our primary (and only) Stage and calls the first Scene, which is the programs front page.
+ */
+
 package sample;
 
 import javafx.application.Application;
@@ -6,7 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class frontPage extends Application { //The core functionality of JavaFX is in this class
+public class primaryStage extends Application { //The core functionality of JavaFX is in this class
 
     @Override
     public void start(Stage primaryStage) throws Exception { // Calls the primary stage
@@ -22,8 +27,8 @@ public class frontPage extends Application { //The core functionality of JavaFX 
         primaryStage.setMaxHeight(800);
         primaryStage.setMaxWidth(1280);
         primaryStage.setScene(new Scene(root, 1280, 800));
-        primaryStage.show();
         primaryStage.setOnCloseRequest(windowEvent -> primaryStage.close()); //handles the closing process properly
         System.out.println("Program closed");
+        primaryStage.show();
     }
 }
