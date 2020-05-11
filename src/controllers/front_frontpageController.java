@@ -1,15 +1,12 @@
 package controllers;
 import javafx.event.ActionEvent;
-import javafx.event.Event;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
+
 
 public class front_frontpageController {
     Parent root;
@@ -19,6 +16,7 @@ public class front_frontpageController {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
         stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         getScene();
+
     }
 
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {

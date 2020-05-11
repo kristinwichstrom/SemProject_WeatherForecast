@@ -11,7 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class primaryStage extends Application { //The core functionality of JavaFX is in this class
+public class primaryStage extends Application { //The core functionality of JavaFX is in the Application class
 
     @Override
     public void start(Stage primaryStage) throws Exception { // Calls the primary stage
@@ -27,8 +27,8 @@ public class primaryStage extends Application { //The core functionality of Java
         primaryStage.setMaxHeight(800);
         primaryStage.setMaxWidth(1280);
         primaryStage.setScene(new Scene(root, 1280, 800));
+        primaryStage.show();
         primaryStage.setOnCloseRequest(windowEvent -> primaryStage.close()); //handles the closing process properly
         System.out.println("Program closed");
-        primaryStage.show();
     }
 }
