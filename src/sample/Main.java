@@ -1,3 +1,8 @@
+/*
+ * The Main class is the starting point for the program,
+ * holding a Start method calling the Stage and setting the first Scene. First Scene is set to be
+ * the front page of the program.
+ */
 package sample;
 
 import javafx.application.Application;
@@ -6,30 +11,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application { //The core functionality of JavaFX is in this class
-
-    @Override
-    public void start(Stage primaryStage) throws Exception{ // Calls the primary stage
-
-        /*
-         * The page loading is now the front page, just change it if you want to test something :)
-         */
-
-        Parent root = FXMLLoader.load(getClass().getResource("../sample/frontPage.fxml"));
-       // primaryStage.setFullScreen(true);
-        primaryStage.setTitle("My Weather Forecast");
-        primaryStage.setMinHeight(800); // Controls that the user doesn't decrease the screen size to a problematic size
-        primaryStage.setMinWidth(1280);
-        primaryStage.setMaxHeight(800);
-        primaryStage.setMaxWidth(1280);
-        primaryStage.setScene(new Scene(root, 1280, 800));
-        primaryStage.show();
-        primaryStage.setOnCloseRequest(windowEvent -> primaryStage.close()); //handles the closing process properly
-        System.out.println("Program closed");
-    }
+public class Main {
 
     public static void main(String[] args) {
-        launch(args); //Calls the args method inside the Application class, sets up the program as a JavaFX app
+       Application.launch(frontPage.class, args);
     }
-
 }
