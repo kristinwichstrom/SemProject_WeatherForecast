@@ -11,3 +11,10 @@
     -fx-background-color: #99caea;
 
 }
+
+.learnrainbg {
+    -fx-background-image: url("/images_backgroundImages/learn_rain_background.png");
+    -fx-opacity: 70;
+    -fx-background-color: #99caea;
+
+}

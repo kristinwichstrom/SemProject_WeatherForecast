@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf2de38-6c9a-4d5e-ab2a-97d1584d1103" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images_backgroundImages/learn_rain_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_05_2020__11_38__Default_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2020__18_14__Default_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/fxml_learningPage/learn_rain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/fxml_learningPage/learn_rain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/backgroundImage_learningPages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/backgroundImage_learningPages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml_learningPage/learn_rain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learningPage/learn_rain.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,19 +110,19 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/frontpageImages" />
-      <recent name="$PROJECT_DIR$/src/backgroundImages" />
-      <recent name="$PROJECT_DIR$/src/CSS" />
-      <recent name="$PROJECT_DIR$/src/learningpageImages" />
-      <recent name="$PROJECT_DIR$/src/learn_wind/learningWind" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/backgroundImages" />
       <recent name="$PROJECT_DIR$/src/frontpageImages" />
       <recent name="$PROJECT_DIR$/src/CSS" />
       <recent name="$PROJECT_DIR$/src/sample/images" />
       <recent name="$PROJECT_DIR$/src/sample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images_backgroundImages" />
+      <recent name="$PROJECT_DIR$/src/frontpageImages" />
+      <recent name="$PROJECT_DIR$/src/backgroundImages" />
+      <recent name="$PROJECT_DIR$/src/CSS" />
+      <recent name="$PROJECT_DIR$/src/learningpageImages" />
     </key>
   </component>
   <component name="RunManager">
@@ -408,7 +414,13 @@
       <option name="presentableId" value="LOCAL−00029" />
       <updated>1589203564763</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL−00030" summary="bug fix">
+      <created>1589291782950</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1589291782950</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +459,8 @@
     <MESSAGE value="updates on switching scenes" />
     <MESSAGE value="shortened main method" />
     <MESSAGE value="small updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="small updates" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="125" key="#Project_Structure" timestamp="1588778707696">
@@ -482,37 +495,37 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1589146690052" />
-    <state x="191" y="35" key="CommitChangelistDialog2" timestamp="1589291615746">
+    <state x="191" y="35" key="CommitChangelistDialog2" timestamp="1589291782580">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="191" y="35" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589291615746" />
+    <state x="191" y="35" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589291782580" />
     <state x="535" y="360" key="Github.ShareDialog" timestamp="1588238422671">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
-    <state width="1155" height="145" key="GridCell.Tab.0.bottom" timestamp="1589288738620">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="403" key="GridCell.Tab.0.bottom" timestamp="1589291976844">
+      <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1155" height="145" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589288738620" />
-    <state width="1320" height="308" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589211562029" />
+    <state width="1398" height="403" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589291976844" />
     <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
-    <state width="1155" height="145" key="GridCell.Tab.0.center" timestamp="1589288738618">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="403" key="GridCell.Tab.0.center" timestamp="1589291976843">
+      <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1155" height="145" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589288738618" />
-    <state width="1320" height="308" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589211562028" />
+    <state width="1398" height="403" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589291976843" />
     <state width="1398" height="308" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
-    <state width="1155" height="145" key="GridCell.Tab.0.left" timestamp="1589288738617">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="403" key="GridCell.Tab.0.left" timestamp="1589291976843">
+      <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1155" height="145" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589288738617" />
-    <state width="1320" height="308" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589211562028" />
+    <state width="1398" height="403" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589291976843" />
     <state width="1398" height="308" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
-    <state width="1155" height="145" key="GridCell.Tab.0.right" timestamp="1589288738619">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state width="1398" height="403" key="GridCell.Tab.0.right" timestamp="1589291976844">
+      <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1155" height="145" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589288738619" />
-    <state width="1320" height="308" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589211562029" />
+    <state width="1398" height="403" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589291976844" />
     <state width="1398" height="308" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
     <state x="144" y="100" key="MergeDialog" timestamp="1588777174830">
       <screen x="0" y="23" width="1440" height="873" />

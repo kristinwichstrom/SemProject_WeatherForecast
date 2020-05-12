@@ -6,4 +6,5 @@
 <AnchorPane
         fx:controller="controllers.learn_rainController"
         maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280"
-        xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" />
+            styleClass="learnrainbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1"
+        xmlns:fx="http://javafx.com/fxml/1" />
