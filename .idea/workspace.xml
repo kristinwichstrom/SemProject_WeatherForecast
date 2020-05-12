@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="small updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/controllers/learn_windController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/controllers/learn_windController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/learn_frontpageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/learn_frontpageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +232,7 @@
       <workItem from="1589064263099" duration="13516000" />
       <workItem from="1589141191995" duration="1737000" />
       <workItem from="1589143150850" duration="16531000" />
-      <workItem from="1589286247124" duration="1255000" />
+      <workItem from="1589286247124" duration="1489000" />
     </task>
     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
       <created>1588438114130</created>

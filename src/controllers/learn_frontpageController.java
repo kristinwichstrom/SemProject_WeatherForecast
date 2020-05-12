@@ -13,6 +13,12 @@ public class learn_frontpageController {
     Parent root;
     Stage stage;
 
+    public void getScene() {
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     public void homeButton(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
@@ -43,9 +49,5 @@ public class learn_frontpageController {
         getScene();
     }
 
-    public void getScene() {
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
+
 }
