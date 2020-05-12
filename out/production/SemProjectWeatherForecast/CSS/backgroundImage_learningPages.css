@@ -9,5 +9,10 @@
     -fx-background-image: url("/images_backgroundImages/abstractbackgrund_1400x1000.png");
     -fx-opacity: 70;
     -fx-background-color: #99caea;
+}
+.learnrainbg {
+    -fx-opacity: 40;
+    -fx-background-image: url("/images_backgroundImages/learn_rain_background.png");
+    -fx-background-color: #99caea;
 
 }

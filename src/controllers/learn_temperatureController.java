@@ -2,11 +2,7 @@ package controllers;
 
 import javafx.event.ActionEvent;
 
-public class learn_cloudsController {
-
-    public void homeButton(ActionEvent actionEvent) {
-    }
-
+public class learn_temperatureController {
     public void button_wind_learnMore(ActionEvent actionEvent) {
     }
 
