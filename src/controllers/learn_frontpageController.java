@@ -38,7 +38,7 @@ public class learn_frontpageController {
     }
 
     public void learnTempButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource(""));
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_temperature.fxml"));
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         getScene();
     }

@@ -15,7 +15,7 @@
       <Button layoutX="390.0" layoutY="518.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Button" />
       <Label layoutX="94.0" layoutY="147.0" prefHeight="127.0" prefWidth="634.0" text="Weather forecast" textFill="WHITE">
          <font>
-            <Font name="Ariana Pro Regular" size="70.0" />
+            <Font name="Lilita One" size="64.0" />
          </font>
       </Label>
       <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="764.0" layoutY="60.0">

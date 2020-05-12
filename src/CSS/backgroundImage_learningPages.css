@@ -16,3 +16,9 @@
     -fx-background-color: #99caea;
 
 }
+.learntemp {
+    -fx-opacity: 40;
+    -fx-background-image: url("/images_backgroundImages/bakgrunn_abstrakt_1480x1000.png");
+    -fx-background-color: #99caea;
+
+}

@@ -8,21 +8,60 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="800" prefWidth="1280" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.learn_temperatureController">
+<AnchorPane prefHeight="800" prefWidth="1280" styleClass="learntemp" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.learn_temperatureController">
     <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_wind_learnMore" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about wind" textFill="WHITE">
         <font>
             <Font name="System Bold" size="13.0" />
         </font></Button>
     <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
-    <Label layoutX="95.0" layoutY="93.0" text="What are clouds?" textFill="WHITE">
+    <Label layoutX="137.0" layoutY="93.0" text="What is temperature?" textFill="#4183bc">
         <font>
-            <Font name="Ariana Pro Regular" size="60.0" />
+            <Font name="Lilita One" size="65.0" />
         </font>
     </Label>
-    <Text fill="#063979" layoutX="102.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A cloud is made up of millions of tiny water droplets or ice crystals floating together in the air." wrappingWidth="540.5676879882812">
+    <Text fill="#063979" layoutX="140.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you know how it feels to be outside in cold weather? Or how a warm bath feels? Those are two extremes of temperature – hot and cold. Temperature is a way of measuring how hot and cold it is." wrappingWidth="553.421875">
         <font>
-            <Font name="Ariana Pro Regular" size="28.0" />
+            <Font name="Nunito SemiBold" size="22.0" />
         </font>
     </Text>
+   <ImageView fitHeight="217.0" fitWidth="223.0" layoutX="912.0" layoutY="62.0">
+      <image>
+         <Image url="@../images_learningPage/sun3_1500x1500.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="255.0" fitWidth="318.0" layoutX="127.0" layoutY="492.0">
+      <image>
+         <Image url="@../images_learningPage/abstract2_1500x1500.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="327.0" fitWidth="362.0" layoutX="767.0" layoutY="371.0">
+      <image>
+         <Image url="@../images_learningPage/abstract3_1500x1500.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="333.0" fitWidth="362.0" layoutX="929.0" layoutY="181.0">
+      <image>
+         <Image url="@../images_learningPage/abstract4_1500x1500.png" />
+      </image>
+   </ImageView>
+   <Text fill="WHITE" layoutX="1020.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The sun controls how hot and cold it is!" textAlignment="CENTER" wrappingWidth="180.19937887654396">
+      <font>
+         <Font name="Nunito SemiBold" size="21.0" />
+      </font>
+   </Text>
+   <Text fill="WHITE" layoutX="851.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For measuring the weather, we use a thermometer." textAlignment="CENTER" wrappingWidth="202.74635470491057">
+      <font>
+         <Font name="Nunito SemiBold" size="18.0" />
+      </font>
+   </Text>
+   <ImageView fitHeight="149.0" fitWidth="162.0" layoutX="698.0" layoutY="541.0">
+      <image>
+         <Image url="@../images_learningPage/thermometer_1500x1500.png" />
+      </image>
+   </ImageView>
+   <Text fill="#1d479a" layoutX="208.0" layoutY="610.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The sun also controls our seasons! Click to read more" textAlignment="CENTER" wrappingWidth="170.4158834227726">
+      <font>
+         <Font name="Nunito SemiBold" size="17.0" />
+      </font>
+   </Text>
 </AnchorPane>
