@@ -25,14 +25,14 @@
             <Font name="Ariana Pro Regular" size="26.0" />
          </font>
       </Text>
-      <Text fill="#034494" layoutX="42.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Depending on their strength, winds can have many names. Click to learn more." textAlignment="CENTER" wrappingWidth="187.0610809326172">
+      <Text fill="#034494" layoutX="49.0" layoutY="599.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Depending on their strength, winds can have many names. Click to learn more." textAlignment="CENTER" wrappingWidth="146.6786425681654">
          <font>
-            <Font name="Nunito SemiBold" size="19.0" />
+            <Font name="Nunito SemiBold" size="14.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="913.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds  are  invisible but we can hear them when they move through the trees, see that leaves are dancing around and we can feel it on our skin." wrappingWidth="303.32080078125">
+      <Text fill="WHITE" layoutX="911.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds  are  invisible but we can hear them when they move through the trees, see that leaves are dancing around and we can feel it on our skin." wrappingWidth="289.32080078125">
          <font>
-            <Font name="Nunito SemiBold" size="22.0" />
+            <Font name="Nunito SemiBold" size="19.0" />
          </font>
       </Text>
       <ImageView fitHeight="254.0" fitWidth="254.0" layoutX="478.0" layoutY="425.0">
@@ -40,9 +40,9 @@
             <Image url="@../images_learningPage/umbrella_1000x1000.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="269.0" fitWidth="318.0" layoutX="911.0" layoutY="64.0">
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="940.0" layoutY="80.0">
          <image>
-            <Image url="@../images_learningPage/wind_leafs_1000x1000_png.png" />
+            <Image url="@../images_learningPage/leafsblow_1500x1500.png" />
          </image>
       </ImageView>
    </children>
