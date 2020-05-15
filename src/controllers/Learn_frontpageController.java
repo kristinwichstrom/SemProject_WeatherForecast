@@ -18,38 +18,37 @@ public class Learn_frontpageController {
 
         //screenController.addScreen("frontpage", FXMLLoader.load(getClass().getResource( "./sample/frontpage.fxml" )));
         root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        //ScreenController.activate("frontpage");
-        //screenController.getStage();
-        getScene();
+        Stage(actionEvent);
     }
 
     public void learnCloudsButton(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_clouds.fxml"));
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
     }
 
     public void learnWindButton(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_wind.fxml"));
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
     }
 
     public void learnTempButton(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_temperature.fxml"));
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
     }
 
     public void learnRainButton(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_rain.fxml"));
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
     }
     public void getScene() {
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
+
+    public void Stage(ActionEvent actionEvent){
+        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        getScene();
+    }
+
 }

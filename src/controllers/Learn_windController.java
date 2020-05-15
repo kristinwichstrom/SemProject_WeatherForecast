@@ -13,16 +13,19 @@ public class Learn_windController {
 
     public void button_wind_learnMore(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_more_wind.fxml"));
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
     }
 
 
     public void button_back(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
+        Stage(actionEvent);
+
+    }
+
+    public void Stage(ActionEvent actionEvent){
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         getScene();
-
     }
 
     public void getScene () {

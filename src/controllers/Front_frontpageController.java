@@ -12,18 +12,20 @@ public class Front_frontpageController {
     Parent root;
     Stage stage;
 
+    public void Stage(ActionEvent actionEvent){
+        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        getScene();
+    }
 
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
-        stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
 
     }
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {
 
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
-        stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
-        getScene();
+        Stage(actionEvent);
 
     }
     public void getScene () {
