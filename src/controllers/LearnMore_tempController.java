@@ -2,7 +2,7 @@ package controllers;
 
 import javafx.event.ActionEvent;
 
-public class learnMore_tempController {
+public class LearnMore_tempController {
 
     public void button_learnMoreTemp(ActionEvent actionEvent) {
     }

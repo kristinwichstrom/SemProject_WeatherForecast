@@ -8,9 +8,10 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 
-public class front_frontpageController {
+public class Front_frontpageController {
     Parent root;
     Stage stage;
+
 
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
@@ -18,10 +19,9 @@ public class front_frontpageController {
         getScene();
 
     }
-
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {
 
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_front.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
         stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         getScene();
 

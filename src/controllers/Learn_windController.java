@@ -1,6 +1,5 @@
 package controllers;
 import javafx.event.ActionEvent;
-import javafx.event.Event;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -8,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-public class learn_windController {
+public class Learn_windController {
     Parent root;
     Stage stage;
 
@@ -20,7 +19,7 @@ public class learn_windController {
 
 
     public void button_back(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/learn_front.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         getScene();
 

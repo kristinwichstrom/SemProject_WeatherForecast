@@ -9,9 +9,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class weather_frontpageController {
+public class Weather_frontpageController {
+
+
+
 
     public void homeButton(ActionEvent actionEvent) throws IOException {
+
         Parent frontPage = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
         Scene frontPageScene = new Scene(frontPage);
 

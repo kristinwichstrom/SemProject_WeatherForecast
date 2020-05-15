@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #B7E4FF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.learnMore_tempController">
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #B7E4FF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMore_tempController">
    <children>
        <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_learnMoreTemp" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="Back to temperature" textFill="WHITE">
            <font>
