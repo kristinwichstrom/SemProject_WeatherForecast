@@ -23,15 +23,15 @@ public class Learn_cloudsController {
         stage.setScene(scene);
         stage.show();
     }
-    
+
 
     public void button_wind_learnMore(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../sample/LearnMore_windController"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_clouds.fxml"));
         Stage(actionEvent);
     }
 
     public void button_back(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
         Stage(actionEvent);
     }
 }
