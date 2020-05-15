@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #B7E4FF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMore_tempController">
+   <children>
+       <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_learnMoreTemp" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="Back to temperature" textFill="WHITE">
+           <font>
+               <Font name="System Bold" size="13.0" />
+           </font></Button>
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Label layoutX="495.0" layoutY="88.0" text="Our seasons" textFill="#3d82be">
+         <font>
+            <Font name="Lilita One" size="55.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="270.0" fitWidth="270.0" layoutX="54.0" layoutY="202.0">
+         <image>
+            <Image url="@../images_learningPage/abstract1_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="295.0" fitWidth="278.0" layoutX="350.0" layoutY="195.0" nodeOrientation="RIGHT_TO_LEFT">
+         <image>
+            <Image url="@../images_learningPage/abstract2_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="285.0" fitWidth="281.0" layoutX="658.0" layoutY="205.0" rotate="180.0">
+         <image>
+            <Image url="@../images_learningPage/abstract3_1500x1500.png" />
+         </image>
+         <rotationAxis>
+            <Point3D y="90.0" z="1.0" />
+         </rotationAxis>
+      </ImageView>
+      <ImageView fitHeight="266.0" fitWidth="266.0" layoutX="959.0" layoutY="216.0">
+         <image>
+            <Image url="@../images_learningPage/abstract4_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="1048.0" layoutY="299.0">
+         <image>
+            <Image url="@../images_learningPage/spring_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="130.0" layoutX="125.0" layoutY="266.0">
+         <image>
+            <Image url="@../images_learningPage/summer_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="111.0" fitWidth="113.0" layoutX="740.0" layoutY="296.0">
+         <image>
+            <Image url="@../images_learningPage/winter_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="421.0" layoutY="283.0">
+         <image>
+            <Image url="@../images_learningPage/fall_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1c57a4" layoutX="145.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Summer">
+         <font>
+            <Font name="Lilita One" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#1c57a4" layoutX="446.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autumn">
+         <font>
+            <Font name="Lilita One" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#1c57a4" layoutX="765.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winter">
+         <font>
+            <Font name="Lilita One" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#1c57a4" layoutX="1064.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spring">
+         <font>
+            <Font name="Lilita One" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#3d75b2" layoutX="63.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In summer the weather is warm, trees have a lot of green leaves and the amount of time it is light makes the day longer." textAlignment="CENTER" wrappingWidth="244.00973510742188">
+         <font>
+            <Font name="Nunito SemiBold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#3d75b2" layoutX="373.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In autumn it becomes colder, because we have less sunlight. The leaves start to change colour and fall off the trees." textAlignment="CENTER" wrappingWidth="244.00973510742188">
+         <font>
+            <Font name="Nunito SemiBold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#3d75b2" layoutX="683.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In winter we have colder weather, and sometimes even snow. The trees have no leaves and the amount of time it is light during the day is at its shortest. " textAlignment="CENTER" wrappingWidth="244.00973510742188">
+         <font>
+            <Font name="Nunito SemiBold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#3d75b2" layoutX="982.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In spring the weather turns warmer, trees begin to grow their leaves and plants grow. The amount of time with light slowly gets longer." textAlignment="CENTER" wrappingWidth="244.00973510742188">
+         <font>
+            <Font name="Nunito SemiBold" size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
