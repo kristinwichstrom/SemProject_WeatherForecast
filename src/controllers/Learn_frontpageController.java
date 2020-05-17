@@ -12,11 +12,10 @@ import java.io.IOException;
 public class Learn_frontpageController {
     Parent root;
     Stage stage;
-    ScreenController screenController = new ScreenController(null);
+    ScreenController screenController = new ScreenController();
 
     public void homeButton(ActionEvent actionEvent) throws IOException {
 
-        //screenController.addScreen("frontpage", FXMLLoader.load(getClass().getResource( "./sample/frontpage.fxml" )));
         root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
         Stage(actionEvent);
     }
@@ -49,6 +48,7 @@ public class Learn_frontpageController {
     public void Stage(ActionEvent actionEvent){
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         getScene();
+        //screenController.getScene();
     }
 
 }

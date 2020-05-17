@@ -1,57 +1,31 @@
 package controllers;
 
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
+import java.awt.event.ActionEvent;
 import java.util.EventObject;
 import java.util.HashMap;
 
 public class ScreenController {
-    private HashMap<String, Pane> screenMap = new HashMap<>();
+    Stage stage;
+    Parent root;
 
-    private Scene main;
-
-    private Parent root;
-    private Stage stage;
-
-    private EventObject actionEvent;
-
-    public ScreenController(Scene main) {
-        this.main = main;
+    public ScreenController () {
     }
 
-    protected void addScreen(String name, Pane pane){
-        screenMap.put(name, pane);
-    }
-
-    protected void removeScreen(String name){
-        screenMap.remove(name);
-    }
-
-    protected void activate(String name){
-        main.setRoot( screenMap.get(name) );
-    }
-
-
-    protected void getStage () {
-        //stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        Scene scene = new Scene(getRoot());
+    public Scene getScene() {
+        Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
+        return scene;
     }
+   /* public static  (ActionEvent actionEvent) {
+        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        getScene();
 
-    public Parent getRoot() {
-        return root;
-    }
-
-    public void setRoot(Parent root) {
-        this.root = root;
-    }
-
-    public void setStage(Stage stage) {
-        this.stage = stage;
-    }
+    }*/
 }

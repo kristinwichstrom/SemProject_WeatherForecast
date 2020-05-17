@@ -19,7 +19,7 @@ public class primaryStage extends Application { //The core functionality of Java
         /*
          * The page loading is now the front page, just change it if you want to test something :)
          */
-        Parent root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_today.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
         // primaryStage.setFullScreen(true);
         primaryStage.setTitle("My Weather Forecast");
         primaryStage.setMinHeight(800); // Controls that the user doesn't decrease the screen size to a problematic size
