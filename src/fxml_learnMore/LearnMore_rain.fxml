@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="fxml_learnMore.LearnMoreRain"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B7E4FF #B7E4FF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Learn_rainController">
+   <children>
+      <Text fill="WHITE" layoutX="88.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Where does rain come from ?" wrappingWidth="424.2607421875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_learningPage/condensation.png" />
+         </image>
+      </ImageView>
+      <Text fill="#2f2da1" layoutX="28.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The heat from the sun makes the water rom plants, leaves and other bodies of water turn into water vapour. " wrappingWidth="124.359375">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="44.0" fitWidth="67.0" layoutX="154.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_learningPage/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="143.0" layoutX="243.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_frontpage/cloud_white_smile.png" />
+         </image>
+      </ImageView>
+      <Text fill="#2f2da1" layoutX="241.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The vapour in the air coolds and changes into water droplets. These droplets come together and form a cloud." wrappingWidth="133.0000000000001">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="133.0" layoutX="458.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_learningPage/clouds%20with%20rain.png" />
+         </image>
+      </ImageView>
+      <Text fill="#2f2da1" layoutX="472.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the clouds get heavy, they fall as rain." wrappingWidth="118.359375">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="94.0" fitWidth="96.0" layoutX="485.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_learningPage/boots.png" />
+         </image>
+      </ImageView>
+      <Text fill="#4023bf" layoutX="441.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You should wear boots when it's raining." wrappingWidth="83.5625" />
+      <ImageView fitHeight="44.0" fitWidth="67.0" layoutX="381.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_learningPage/arrow.png" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
