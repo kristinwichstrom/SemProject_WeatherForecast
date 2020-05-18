@@ -11,8 +11,7 @@ import java.io.IOException;
 
 public class Weather_frontpageController {
 
-    Parent root;
-    Stage stage;
+
     ButtonActions buttonActions = new ButtonActions();
 
 
@@ -22,26 +21,20 @@ public class Weather_frontpageController {
 
 
     public void firstDayButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_first.fxml"));
-        Stage(actionEvent);
+        buttonActions.weatherFirst(actionEvent);
 
     }
 
-    public void secondDayButton(ActionEvent actionEvent) {
+    public void secondDayButton(ActionEvent actionEvent) throws IOException {
+        buttonActions.weatherSecond(actionEvent);
     }
 
-    public void thirdDayButton(ActionEvent actionEvent) {
+    public void thirdDayButton(ActionEvent actionEvent) throws IOException {
+        buttonActions.weatherThird(actionEvent);
     }
 
-    public void fourthDayButton(ActionEvent actionEvent) {
+    public void fourthDayButton(ActionEvent actionEvent) throws IOException {
+        buttonActions.weatherFourth(actionEvent);
     }
-    public void getScene () {
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void Stage(ActionEvent actionEvent){
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
-    }
+
 }
