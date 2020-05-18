@@ -9,29 +9,14 @@ import java.io.IOException;
 
 
 public class Front_frontpageController {
-    Parent root;
-    Stage stage;
+
     ButtonActions buttonActions = new ButtonActions();
 
-    public void Stage(ActionEvent actionEvent){
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
-    }
-
     public void buttonWeatherForecast(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
-        Stage(actionEvent);
+        buttonActions.weatherFrontpage(actionEvent);
 
     }
     public void buttonLearnAbout(ActionEvent actionEvent) throws IOException {
-
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
-        Stage(actionEvent);
-
-    }
-    public void getScene () {
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        buttonActions.learnFrontpage(actionEvent);
     }
 }

@@ -10,44 +10,26 @@ import java.io.IOException;
 
 
 public class Learn_frontpageController {
-    Parent root;
-    Stage stage;
     ButtonActions buttonActions = new ButtonActions();
 
     public void homeButton(ActionEvent actionEvent) throws IOException {
         buttonActions.homeButton(actionEvent);
-
     }
-
     public void learnCloudsButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_clouds.fxml"));
-        Stage(actionEvent);
+        buttonActions.learnClouds(actionEvent);
     }
 
     public void learnWindButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_wind.fxml"));
-        Stage(actionEvent);
+        buttonActions.learnWind(actionEvent);
     }
 
     public void learnTempButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_temperature.fxml"));
-        Stage(actionEvent);
+        buttonActions.learnTemp(actionEvent);
     }
 
     public void learnRainButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_rain.fxml"));
-        Stage(actionEvent);
-    }
-    public void getScene() {
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        buttonActions.learnRain(actionEvent);
     }
 
-    public void Stage(ActionEvent actionEvent){
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
-        //screenController.getScene();
     }
 
-}

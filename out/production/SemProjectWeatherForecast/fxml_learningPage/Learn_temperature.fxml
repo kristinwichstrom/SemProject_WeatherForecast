@@ -6,7 +6,7 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="800" prefWidth="1280" styleClass="learntemp" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Learn_temperatureController">
-    <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_wind_learnMore" prefHeight="75.0" prefWidth="203.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about temperature" textFill="WHITE">
+    <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#learnMoreTempButton" prefHeight="75.0" prefWidth="203.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="More about temperature" textFill="WHITE">
         <font>
             <Font name="System Bold" size="13.0" />
         </font></Button>

@@ -10,29 +10,15 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Learn_cloudsController {
-    Parent root;
-    Stage stage;
+
     ButtonActions buttonActions = new ButtonActions();
 
-    public void Stage(ActionEvent actionEvent){
-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        getScene();
-    }
-
-    public void getScene () {
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
 
     public void button_back(ActionEvent actionEvent) throws IOException {
-        //root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
-        //Stage(actionEvent);
-        buttonActions.learnMoreFrontButton(actionEvent);
+        buttonActions.learnFrontpage(actionEvent);
     }
 
     public void button_clouds_learnMore(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_clouds.fxml"));
-        Stage(actionEvent);
+       buttonActions.learnMoreClouds(actionEvent);
     }
     }

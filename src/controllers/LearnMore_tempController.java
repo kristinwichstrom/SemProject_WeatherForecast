@@ -34,4 +34,7 @@ public class LearnMore_tempController {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
         Stage(actionEvent);
     }
+
+    public void button_learnMore(ActionEvent actionEvent) {
+    }
 }

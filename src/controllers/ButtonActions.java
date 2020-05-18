@@ -14,7 +14,6 @@ public class ButtonActions {
     Stage stage;
 
     public ButtonActions() {
-
     }
 
     public void Stage(ActionEvent actionEvent) {
@@ -27,7 +26,6 @@ public class ButtonActions {
         stage.setScene(scene);
         stage.show();
     }
-
     /*
      ** Home page Scene shift
      */
@@ -40,12 +38,72 @@ public class ButtonActions {
     }
 
     /*
+     ** Weather Forecast pages: Scene shifts
+     */
+    public ActionEvent weatherFrontpage(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+    /*
+     ** Learn About Pages: Scene shifts
+     */
+
+    public ActionEvent learnClouds(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_clouds.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
+    public ActionEvent learnWind(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_wind.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
+    public ActionEvent learnTemp(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_temperature.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
+    public ActionEvent learnRain(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_rain.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
+    /*
      ** Learn More about Pages: Scene shifts
      */
-    public ActionEvent learnMoreFrontButton(ActionEvent actionEvent) throws IOException {
+    public ActionEvent learnFrontpage(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
+
+    public ActionEvent learnMoreClouds(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_clouds.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
+    public ActionEvent learnMoreRain(ActionEvent actionEvent) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/LearnMore_rain.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
+    public ActionEvent learnMoreWind(ActionEvent actionEvent) throws IOException { //rename method
+        root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_wind.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+    public ActionEvent learnMoreTemp(ActionEvent actionEvent) throws IOException { //rename method
+        root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_temp.fxml"));
+        Stage(actionEvent);
+        return actionEvent;
+    }
+
 
 }
