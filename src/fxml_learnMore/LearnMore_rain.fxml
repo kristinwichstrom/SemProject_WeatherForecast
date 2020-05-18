@@ -21,7 +21,7 @@
             <Font size="11.0" />
          </font>
       </Text>
-      <ImageView fitHeight="44.0" fitWidth="67.0" layoutX="154.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="67.0" layoutX="163.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images_learningPage/arrow.png" />
          </image>
