@@ -1,0 +1,708 @@
+Index: src/controllers/ButtonActions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/ButtonActions.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/ButtonActions.java	(date 1589800268000)
+@@ -40,11 +40,42 @@
+     /*
+      ** Weather Forecast pages: Scene shifts
+      */
++
++    // 1. Frontpage
+     public ActionEvent weatherFrontpage(ActionEvent actionEvent) throws IOException {
+         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_frontpage.fxml"));
+         Stage(actionEvent);
+         return actionEvent;
+     }
++
++    // 2. Weather today
++    public ActionEvent firstDay(ActionEvent actionEvent) throws IOException {
++        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_first.fxml"));
++        Stage(actionEvent);
++        return actionEvent;
++    }
++
++    // 3. Weather tomorrow
++    public ActionEvent secondDay(ActionEvent actionEvent) throws IOException {
++        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_second.fxml"));
++        Stage(actionEvent);
++        return actionEvent;
++    }
++
++    // 4. Weather forecast three days ahead
++    public ActionEvent thirdDay(ActionEvent actionEvent) throws IOException {
++        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_third.fxml"));
++        Stage(actionEvent);
++        return actionEvent;
++    }
++
++    // 5.  Weather forecast four days ahead
++    public ActionEvent fourthDay(ActionEvent actionEvent) throws IOException {
++        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_fourth.fxml"));
++        Stage(actionEvent);
++        return actionEvent;
++    }
++
+     /*
+      ** Learn About Pages: Scene shifts
+      */
+@@ -99,6 +130,7 @@
+         Stage(actionEvent);
+         return actionEvent;
+     }
++
+     public ActionEvent learnMoreTemp(ActionEvent actionEvent) throws IOException { //rename method
+         root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_temp.fxml"));
+         Stage(actionEvent);
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ .idea/workspace.xml	(date 1589800268000)
+@@ -20,7 +20,23 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="baf2de38-6c9a-4d5e-ab2a-97d1584d1103" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/src/images_learnMore/cirrus_1000x1000.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/images_learnMore/cumulus_1000x1000.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/images_learnMore/status_1000x1000.png" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/fxml_learnMore/LearnMore_clouds.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/fxml_learnMore/LearnMore_clouds.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/SemProjectWeatherForecast/fxml_weatherForecast/weather_tomorrow.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/ButtonActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonActions.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/LearnMore_cloudsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/LearnMore_cloudsController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/Learn_windController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Learn_windController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/Weather_fourthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Weather_fourthController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/Weather_frontpageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Weather_frontpageController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/Weather_secondController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Weather_secondController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/controllers/Weather_thirdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Weather_thirdController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/fxml_learnMore/LearnMore_clouds.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_learnMore/LearnMore_clouds.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/fxml_weatherForecast/Weather_fourth.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/Weather_fourth.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/fxml_weatherForecast/Weather_second.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/Weather_second.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/fxml_weatherForecast/Weather_third.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml_weatherForecast/Weather_third.fxml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -107,7 +123,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="dynamic.classpath" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/backgroundImages" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images_learnMore" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+     <property name="node.js.detected.package.eslint" value="true" />
+     <property name="node.js.detected.package.tslint" value="true" />
+@@ -122,19 +138,19 @@
+     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+   </component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/images_learnMore" />
++      <recent name="$PROJECT_DIR$/src/backgroundImages" />
++      <recent name="$PROJECT_DIR$/src/frontpageImages" />
++      <recent name="$PROJECT_DIR$/src/CSS" />
++      <recent name="$PROJECT_DIR$/src/sample/images" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/images_backgroundImages" />
+       <recent name="$PROJECT_DIR$/src/frontpageImages" />
+       <recent name="$PROJECT_DIR$/src/backgroundImages" />
+       <recent name="$PROJECT_DIR$/src/CSS" />
+       <recent name="$PROJECT_DIR$/src/learningpageImages" />
+-    </key>
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/src/backgroundImages" />
+-      <recent name="$PROJECT_DIR$/src/frontpageImages" />
+-      <recent name="$PROJECT_DIR$/src/CSS" />
+-      <recent name="$PROJECT_DIR$/src/sample/images" />
+-      <recent name="$PROJECT_DIR$/src/sample" />
+     </key>
+   </component>
+   <component name="RunManager">
+@@ -252,7 +268,7 @@
+       <workItem from="1589143150850" duration="16531000" />
+       <workItem from="1589286247124" duration="1489000" />
+       <workItem from="1589745265612" duration="115000" />
+-      <workItem from="1589785836729" duration="8949000" />
++      <workItem from="1589785836729" duration="12723000" />
+     </task>
+     <task id="LOCAL−00001" summary="updating scenes, learn_clouds.fxml is added">
+       <created>1588438114130</created>
+@@ -464,7 +480,19 @@
+       <option name="presentableId" value="LOCAL−00035" />
+       <updated>1589795164331</updated>
+     </task>
+-    <option name="localTasksCounter" value="36" />
++    <task id="LOCAL−00036" summary="Shortened methods in one class, working shortening rest of code">
++      <created>1589795192657</created>
++      <option name="number" value="LOCAL−00036" />
++      <option name="presentableId" value="LOCAL−00036" />
++      <updated>1589795192657</updated>
++    </task>
++    <task id="LOCAL−00037" summary="small update">
++      <created>1589797738296</created>
++      <option name="number" value="LOCAL−00037" />
++      <option name="presentableId" value="LOCAL−00037" />
++      <updated>1589797738296</updated>
++    </task>
++    <option name="localTasksCounter" value="38" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -507,7 +535,8 @@
+     <MESSAGE value="updates" />
+     <MESSAGE value="Updates on methods for buttons" />
+     <MESSAGE value="Shortened methods in one class, working shortening rest of code" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Shortened methods in one class, working shortening rest of code" />
++    <MESSAGE value="small update" />
++    <option name="LAST_COMMIT_MESSAGE" value="small update" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="320" y="125" key="#Project_Structure" timestamp="1588778707696">
+@@ -546,37 +575,37 @@
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.873@0.23.1440.873" timestamp="1589146690052" />
+-    <state x="222" y="23" key="CommitChangelistDialog2" timestamp="1589795164033">
++    <state x="222" y="23" key="CommitChangelistDialog2" timestamp="1589797738016">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+-    <state x="222" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589795164033" />
++    <state x="222" y="23" key="CommitChangelistDialog2/0.23.1440.873@0.23.1440.873" timestamp="1589797738016" />
+     <state x="535" y="360" key="Github.ShareDialog" timestamp="1588238422671">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state x="535" y="360" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1588238422671" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.bottom" timestamp="1589794351212">
++    <state width="1398" height="44" key="GridCell.Tab.0.bottom" timestamp="1589799801267">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state width="1155" height="145" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1589288738620" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589794351212" />
++    <state width="1398" height="44" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1589799801267" />
+     <state width="1398" height="308" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.center" timestamp="1589794351211">
++    <state width="1398" height="44" key="GridCell.Tab.0.center" timestamp="1589799801266">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state width="1155" height="145" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1589288738618" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589794351211" />
++    <state width="1398" height="44" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1589799801266" />
+     <state width="1398" height="308" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.left" timestamp="1589794351211">
++    <state width="1398" height="44" key="GridCell.Tab.0.left" timestamp="1589799801266">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state width="1155" height="145" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1589288738617" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589794351211" />
++    <state width="1398" height="44" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1589799801266" />
+     <state width="1398" height="308" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589062404084" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.right" timestamp="1589794351212">
++    <state width="1398" height="44" key="GridCell.Tab.0.right" timestamp="1589799801267">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state width="1155" height="145" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1589288738619" />
+-    <state width="1398" height="176" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589794351212" />
++    <state width="1398" height="44" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1589799801267" />
+     <state width="1398" height="308" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589062404085" />
+     <state x="144" y="100" key="MergeDialog" timestamp="1589786040184">
+       <screen x="0" y="23" width="1440" height="873" />
+@@ -602,10 +631,10 @@
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+     <state x="420" y="225" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.23.1440.873@0.23.1440.873" timestamp="1589786023844" />
+-    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1589791187707">
++    <state x="271" y="199" key="Vcs.Push.Dialog.v2" timestamp="1589797740992">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+-    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1589791187707" />
++    <state x="271" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1589797740992" />
+     <state x="399" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1588754082800">
+       <screen x="0" y="23" width="1440" height="873" />
+     </state>
+Index: src/controllers/Weather_frontpageController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/Weather_frontpageController.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/Weather_frontpageController.java	(date 1589800268000)
+@@ -11,8 +11,6 @@
+ 
+ public class Weather_frontpageController {
+ 
+-    Parent root;
+-    Stage stage;
+     ButtonActions buttonActions = new ButtonActions();
+ 
+ 
+@@ -22,26 +20,19 @@
+ 
+ 
+     public void firstDayButton(ActionEvent actionEvent) throws IOException {
+-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_first.fxml"));
+-        Stage(actionEvent);
++      buttonActions.firstDay(actionEvent);
+ 
+     }
+ 
+-    public void secondDayButton(ActionEvent actionEvent) {
++    public void secondDayButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.secondDay(actionEvent);
+     }
+ 
+-    public void thirdDayButton(ActionEvent actionEvent) {
++    public void thirdDayButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.thirdDay(actionEvent);
+     }
+ 
+-    public void fourthDayButton(ActionEvent actionEvent) {
+-    }
+-    public void getScene () {
+-        Scene scene = new Scene(root);
+-        stage.setScene(scene);
+-        stage.show();
+-    }
+-    public void Stage(ActionEvent actionEvent){
+-        stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+-        getScene();
++    public void fourthDayButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.fourthDay(actionEvent);
+     }
+ }
+Index: out/production/SemProjectWeatherForecast/fxml_weatherForecast/weather_tomorrow.fxml
+===================================================================
+--- out/production/SemProjectWeatherForecast/fxml_weatherForecast/weather_tomorrow.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ out/production/SemProjectWeatherForecast/fxml_weatherForecast/weather_tomorrow.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
+@@ -1,14 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<?import java.lang.*?>
+-<?import java.util.*?>
+-<?import javafx.scene.*?>
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-<AnchorPane xmlns="http://javafx.com/javafx"
+-            xmlns:fx="http://javafx.com/fxml"
+-            fx:controller="controllers.Weather_tomorrowController"
+-            prefHeight="800.0" prefWidth="1280.0">
+-
+-</AnchorPane>
+Index: out/production/SemProjectWeatherForecast/fxml_learnMore/LearnMore_clouds.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- out/production/SemProjectWeatherForecast/fxml_learnMore/LearnMore_clouds.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ out/production/SemProjectWeatherForecast/fxml_learnMore/LearnMore_clouds.fxml	(date 1589799470000)
+@@ -1,14 +1,91 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<?import java.lang.*?>
+-<?import java.util.*?>
+-<?import javafx.scene.*?>
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.shape.Circle?>
++<?import javafx.scene.shape.Line?>
++<?import javafx.scene.text.Font?>
++<?import javafx.scene.text.Text?>
+ 
+-<AnchorPane xmlns="http://javafx.com/javafx"
+-            xmlns:fx="http://javafx.com/fxml"
+-            fx:controller="controllers.Learn_cloudsController"
+-            prefHeight="800.0" prefWidth="1280.0">
++<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: A4E8FB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMore_cloudsController">
++    <children>
++        <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#cloudsBackButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="Back to clouds" textFill="WHITE">
++            <font>
++                <Font name="System Bold" size="13.0" />
++            </font></Button>
++        <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learnMoreBackButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
++        <Label layoutX="73.0" layoutY="84.0" text="Types of clouds" textFill="WHITE">
++            <font>
++                <Font name="Lilita One" size="55.0" />
++            </font>
++        </Label>
++      <Text fill="#0a3c75" layoutX="81.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the sun is up, the clouds determines how much the sun is shining. When there is a lot of clouds on the sky, you can't see the sun that clear. But when there is no clouds, the sky is all blue, and the sun can be very strong. " wrappingWidth="468.2685852050781">
++         <font>
++            <Font name="Nunito SemiBold" size="17.0" />
++         </font>
++      </Text>
++      <Line endX="735.1697998046875" endY="3.0517578125E-5" layoutX="386.0" layoutY="439.0" startX="-246.5951385498047" startY="3.0517578125E-5" stroke="WHITE" strokeWidth="5.0" />
++      <Circle fill="#6fa0e9" layoutX="272.0" layoutY="435.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
++      <Circle fill="#6fa0e9" layoutX="619.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
++      <Circle fill="#6fa0e9" layoutX="979.0" layoutY="443.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
++      <Text layoutX="217.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulus">
++         <font>
++            <Font name="Nunito SemiBold" size="27.0" />
++         </font>
++      </Text>
++      <Text layoutX="573.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stratus">
++         <font>
++            <Font name="Nunito SemiBold" size="27.0" />
++         </font>
++      </Text>
++      <Text layoutX="943.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cirrus">
++         <font>
++            <Font name="Nunito SemiBold" size="27.0" />
++         </font>
++      </Text>
++      <Text fill="#084680" layoutX="107.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulus might appear like a big white candyfloss on the sky. This is one of the most common types of clouds." textAlignment="CENTER" wrappingWidth="326.8962707519531">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++      <Text fill="#084680" layoutX="461.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stratus are clouds that covers the sky like a blanked, in white and gray colour." textAlignment="CENTER" wrappingWidth="314.2283020019531">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++      <Text fill="#084680" layoutX="820.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cirrus are delicate clouds with a silky look. They have a thread-like structure, almost like hair." textAlignment="CENTER" wrappingWidth="314.2283020019531">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++      <ImageView fitHeight="172.0" fitWidth="172.0" layoutX="888.0" layoutY="280.0">
++         <image>
++            <Image url="@../images_learnMore/cirrus_1000x1000.png" />
++         </image>
++      </ImageView>
++      <ImageView fitHeight="93.0" fitWidth="123.0" layoutX="555.0" layoutY="300.0">
++         <image>
++            <Image url="@../images_learnMore/status_1000x1000.png" />
++         </image>
++      </ImageView>
++      <ImageView fitHeight="131.0" fitWidth="129.0" layoutX="198.0" layoutY="284.0">
++         <image>
++            <Image url="@../images_learnMore/cumulus_1000x1000.png" />
++         </image>
++      </ImageView>
++      <ImageView fitHeight="256.0" fitWidth="390.0" layoutX="833.0" layoutY="23.0">
++         <image>
++            <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
++         </image>
++      </ImageView>
++      <Text fill="#306794" layoutX="903.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can have different shapes, size, color and texture. There are three main types of clouds:" textAlignment="CENTER" wrappingWidth="268.12933349609375">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++    </children>
+ 
+ </AnchorPane>
+Index: src/fxml_learnMore/LearnMore_clouds.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/fxml_learnMore/LearnMore_clouds.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/fxml_learnMore/LearnMore_clouds.fxml	(date 1589799465000)
+@@ -1,14 +1,91 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<?import java.lang.*?>
+-<?import java.util.*?>
+-<?import javafx.scene.*?>
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.shape.Circle?>
++<?import javafx.scene.shape.Line?>
++<?import javafx.scene.text.Font?>
++<?import javafx.scene.text.Text?>
+ 
+-<AnchorPane xmlns="http://javafx.com/javafx"
+-            xmlns:fx="http://javafx.com/fxml"
+-            fx:controller="controllers.LearnMore_cloudsController"
+-            prefHeight="800.0" prefWidth="1280.0">
++<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: A4E8FB;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMore_cloudsController">
++    <children>
++        <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#cloudsBackButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="Back to clouds" textFill="WHITE">
++            <font>
++                <Font name="System Bold" size="13.0" />
++            </font></Button>
++        <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learnMoreBackButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
++        <Label layoutX="73.0" layoutY="84.0" text="Types of clouds" textFill="WHITE">
++            <font>
++                <Font name="Lilita One" size="55.0" />
++            </font>
++        </Label>
++      <Text fill="#0a3c75" layoutX="81.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the sun is up, the clouds determines how much the sun is shining. When there is a lot of clouds on the sky, you can't see the sun that clear. But when there is no clouds, the sky is all blue, and the sun can be very strong. " wrappingWidth="468.2685852050781">
++         <font>
++            <Font name="Nunito SemiBold" size="17.0" />
++         </font>
++      </Text>
++      <Line endX="735.1697998046875" endY="3.0517578125E-5" layoutX="386.0" layoutY="439.0" startX="-246.5951385498047" startY="3.0517578125E-5" stroke="WHITE" strokeWidth="5.0" />
++      <Circle fill="#6fa0e9" layoutX="272.0" layoutY="435.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
++      <Circle fill="#6fa0e9" layoutX="619.0" layoutY="441.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
++      <Circle fill="#6fa0e9" layoutX="979.0" layoutY="443.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
++      <Text layoutX="217.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulus">
++         <font>
++            <Font name="Nunito SemiBold" size="27.0" />
++         </font>
++      </Text>
++      <Text layoutX="573.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stratus">
++         <font>
++            <Font name="Nunito SemiBold" size="27.0" />
++         </font>
++      </Text>
++      <Text layoutX="943.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cirrus">
++         <font>
++            <Font name="Nunito SemiBold" size="27.0" />
++         </font>
++      </Text>
++      <Text fill="#084680" layoutX="107.0" layoutY="566.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulus might appear like a big white candyfloss on the sky. This is one of the most common types of clouds." textAlignment="CENTER" wrappingWidth="326.8962707519531">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++      <Text fill="#084680" layoutX="461.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stratus are clouds that covers the sky like a blanked, in white and gray colour." textAlignment="CENTER" wrappingWidth="314.2283020019531">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++      <Text fill="#084680" layoutX="820.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cirrus are delicate clouds with a silky look. They have a thread-like structure, almost like hair." textAlignment="CENTER" wrappingWidth="314.2283020019531">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++      <ImageView fitHeight="172.0" fitWidth="172.0" layoutX="888.0" layoutY="280.0">
++         <image>
++            <Image url="@../images_learnMore/cirrus_1000x1000.png" />
++         </image>
++      </ImageView>
++      <ImageView fitHeight="93.0" fitWidth="123.0" layoutX="555.0" layoutY="300.0">
++         <image>
++            <Image url="@../images_learnMore/status_1000x1000.png" />
++         </image>
++      </ImageView>
++      <ImageView fitHeight="131.0" fitWidth="129.0" layoutX="198.0" layoutY="284.0">
++         <image>
++            <Image url="@../images_learnMore/cumulus_1000x1000.png" />
++         </image>
++      </ImageView>
++      <ImageView fitHeight="256.0" fitWidth="390.0" layoutX="833.0" layoutY="23.0">
++         <image>
++            <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
++         </image>
++      </ImageView>
++      <Text fill="#306794" layoutX="903.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can have different shapes, size, color and texture. There are three main types of clouds:" textAlignment="CENTER" wrappingWidth="268.12933349609375">
++         <font>
++            <Font name="Nunito SemiBold" size="18.0" />
++         </font>
++      </Text>
++    </children>
+ 
+ </AnchorPane>
+Index: src/fxml_weatherForecast/Weather_second.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/fxml_weatherForecast/Weather_second.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/fxml_weatherForecast/Weather_second.fxml	(date 1589799637000)
+@@ -6,9 +6,22 @@
+ <?import javafx.scene.control.*?>
+ <?import javafx.scene.layout.*?>
+ 
++<?import javafx.scene.text.Font?>
+ <AnchorPane xmlns="http://javafx.com/javafx"
+             xmlns:fx="http://javafx.com/fxml"
+             fx:controller="controllers.Weather_secondController"
+             prefHeight="800.0" prefWidth="1280.0">
++    <children>
++        <Label fx:id="weatherTodayLabel" layoutX="438.0" layoutY="119.0"
++               prefHeight="43.0" prefWidth="144.0" text="Label" />
++        <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false"
++                onAction="#homeButton" prefHeight="70.0"
++                prefWidth="161.0" styleClass="buttonBackHome"
++                stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
++            <font>
++                <Font size="23.0" />
++            </font>
++        </Button>
++    </children>
+ 
+ </AnchorPane>
+Index: src/controllers/Weather_secondController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/Weather_secondController.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/Weather_secondController.java	(date 1589799799000)
+@@ -1,8 +1,16 @@
+ package controllers;
+ 
++import javafx.event.ActionEvent;
++
++import java.io.IOException;
++
+ public class Weather_secondController {
++    ButtonActions buttonActions = new ButtonActions();
+ 
+ 
++    public void homeButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.weatherFrontpage(actionEvent);
+ 
+     }
++}
+ 
+Index: src/controllers/Learn_windController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/Learn_windController.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/Learn_windController.java	(date 1589798185000)
+@@ -8,8 +8,7 @@
+ import java.io.IOException;
+ 
+ public class Learn_windController {
+-    Parent root;
+-    Stage stage;
++
+     ButtonActions buttonActions = new ButtonActions();
+ 
+     public void button_wind_learnMore(ActionEvent actionEvent) throws IOException {
+Index: src/controllers/Weather_thirdController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/Weather_thirdController.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/Weather_thirdController.java	(date 1589799799000)
+@@ -1,4 +1,13 @@
+ package controllers;
+ 
++import javafx.event.ActionEvent;
++
++import java.io.IOException;
++
+ public class Weather_thirdController {
++    ButtonActions buttonActions = new ButtonActions();
++
++    public void homeButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.weatherFrontpage(actionEvent);
++    }
+ }
+Index: src/controllers/LearnMore_cloudsController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/LearnMore_cloudsController.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/LearnMore_cloudsController.java	(date 1589798185000)
+@@ -1,5 +1,16 @@
+ package controllers;
+ 
++import javafx.event.ActionEvent;
++
++import java.io.IOException;
++
+ public class LearnMore_cloudsController {
++    ButtonActions buttonActions = new ButtonActions();
+ 
++    public void cloudsBackButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.learnClouds(actionEvent);
++    }
++    public void learnMoreBackButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.learnFrontpage(actionEvent);
++    }
+ }
+Index: src/fxml_weatherForecast/Weather_fourth.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/fxml_weatherForecast/Weather_fourth.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/fxml_weatherForecast/Weather_fourth.fxml	(date 1589799799000)
+@@ -6,9 +6,22 @@
+ <?import javafx.scene.control.*?>
+ <?import javafx.scene.layout.*?>
+ 
++<?import javafx.scene.text.Font?>
+ <AnchorPane xmlns="http://javafx.com/javafx"
+             xmlns:fx="http://javafx.com/fxml"
+             fx:controller="controllers.Weather_fourthController"
+             prefHeight="800.0" prefWidth="1280.0">
++    <children>
++        <Label fx:id="weatherTodayLabel" layoutX="438.0" layoutY="119.0"
++               prefHeight="43.0" prefWidth="144.0" text="Label" />
++        <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false"
++                onAction="#homeButton" prefHeight="70.0"
++                prefWidth="161.0" styleClass="buttonBackHome"
++                stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
++            <font>
++                <Font size="23.0" />
++            </font>
++        </Button>
++    </children>
+ 
+ </AnchorPane>
+Index: src/controllers/Weather_fourthController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/controllers/Weather_fourthController.java	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/controllers/Weather_fourthController.java	(date 1589799799000)
+@@ -1,4 +1,13 @@
+ package controllers;
+ 
++import javafx.event.ActionEvent;
++
++import java.io.IOException;
++
+ public class Weather_fourthController {
++    ButtonActions buttonActions = new ButtonActions();
++
++    public void homeButton(ActionEvent actionEvent) throws IOException {
++        buttonActions.weatherFrontpage(actionEvent);
++    }
+ }
+Index: src/fxml_weatherForecast/Weather_third.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/fxml_weatherForecast/Weather_third.fxml	(revision 9dad30f8d7be035dcc880692145cbc503a652a40)
++++ src/fxml_weatherForecast/Weather_third.fxml	(date 1589799799000)
+@@ -6,9 +6,22 @@
+ <?import javafx.scene.control.*?>
+ <?import javafx.scene.layout.*?>
+ 
++<?import javafx.scene.text.Font?>
+ <AnchorPane xmlns="http://javafx.com/javafx"
+             xmlns:fx="http://javafx.com/fxml"
+             fx:controller="controllers.Weather_thirdController"
+             prefHeight="800.0" prefWidth="1280.0">
++    <children>
++        <Label fx:id="weatherTodayLabel" layoutX="438.0" layoutY="119.0"
++               prefHeight="43.0" prefWidth="144.0" text="Label" />
++        <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false"
++                onAction="#homeButton" prefHeight="70.0"
++                prefWidth="161.0" styleClass="buttonBackHome"
++                stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
++            <font>
++                <Font size="23.0" />
++            </font>
++        </Button>
++    </children>
+ 
+ </AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.Weather_thirdController"
+            prefHeight="800.0" prefWidth="1280.0">
+    <children>
+        <Label fx:id="weatherTodayLabel" layoutX="438.0" layoutY="119.0"
+               prefHeight="43.0" prefWidth="144.0" text="Label" />
+        <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false"
+                onAction="#homeButton" prefHeight="70.0"
+                prefWidth="161.0" styleClass="buttonBackHome"
+                stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Button>
+    </children>
+
+</AnchorPane>
