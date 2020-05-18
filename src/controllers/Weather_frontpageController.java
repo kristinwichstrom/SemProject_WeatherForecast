@@ -13,12 +13,11 @@ public class Weather_frontpageController {
 
     Parent root;
     Stage stage;
+    ButtonActions buttonActions = new ButtonActions();
 
 
     public void homeButton(ActionEvent actionEvent) throws IOException {
-
-        root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
-        Stage(actionEvent);
+        buttonActions.homeButton(actionEvent);
     }
 
 

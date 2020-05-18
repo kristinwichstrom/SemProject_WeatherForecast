@@ -12,6 +12,7 @@ import java.io.IOException;
 public class Learn_cloudsController {
     Parent root;
     Stage stage;
+    ButtonActions buttonActions = new ButtonActions();
 
     public void Stage(ActionEvent actionEvent){
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
@@ -24,14 +25,14 @@ public class Learn_cloudsController {
         stage.show();
     }
 
+    public void button_back(ActionEvent actionEvent) throws IOException {
+        //root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
+        //Stage(actionEvent);
+        buttonActions.learnMoreFrontButton(actionEvent);
+    }
 
-    public void button_wind_learnMore(ActionEvent actionEvent) throws IOException {
+    public void button_clouds_learnMore(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_clouds.fxml"));
         Stage(actionEvent);
     }
-
-    public void button_back(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_front.fxml"));
-        Stage(actionEvent);
     }
-}

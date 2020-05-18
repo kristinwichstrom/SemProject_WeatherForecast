@@ -7,22 +7,24 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800" prefWidth="1280" styleClass="clouds_bodybg"
-            stylesheets="@../CSS/backgroundImagesMethods.css" xmlns="http://javafx.com/javafx/11.0.1"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Weather_frontpageController">
+<AnchorPane prefHeight="800" prefWidth="1280" styleClass="cloudsbg" stylesheets="@../CSS/backgroundImage_learningPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Weather_frontpageController">
    <children>
-      <Button layoutX="93.0" layoutY="365.0" mnemonicParsing="false"
-              onAction="#firstDayButton" prefHeight="96.0" prefWidth="210.0"
-              stylesheets="@../CSS/buttons_learningPage.css" text="Today" textFill="#2a61a1" />
-      <Button layoutX="387.0" layoutY="365.0" mnemonicParsing="false"
-              onAction="#secondDayButton" prefHeight="96.0" prefWidth="210.0"
-              stylesheets="@../CSS/buttons_learningPage.css" text="Tomorrow" />
-      <Button layoutX="95.0" layoutY="520.0" mnemonicParsing="false"
-              onAction="#thirdDayButton" prefHeight="96.0" prefWidth="210.0"
-              stylesheets="@../CSS/buttons_learningPage.css" text="Three days ahead" />
-      <Button layoutX="390.0" layoutY="518.0" mnemonicParsing="false"
-              onAction="#fourthDayButton" prefHeight="96.0" prefWidth="210.0"
-              stylesheets="@../CSS/buttons_learningPage.css" text="Four days ahead" />
+      <Button layoutX="93.0" layoutY="365.0" mnemonicParsing="false" onAction="#firstDayButton" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Today" textFill="#0e5882">
+         <font>
+            <Font name="Nunito SemiBold" size="16.0" />
+         </font></Button>
+      <Button layoutX="387.0" layoutY="365.0" mnemonicParsing="false" onAction="#secondDayButton" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Tomorrow" textFill="#0a527c">
+         <font>
+            <Font name="Nunito SemiBold" size="16.0" />
+         </font></Button>
+      <Button layoutX="95.0" layoutY="520.0" mnemonicParsing="false" onAction="#thirdDayButton" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Three days ahead" textFill="#0e5882">
+         <font>
+            <Font name="Nunito SemiBold" size="16.0" />
+         </font></Button>
+      <Button layoutX="390.0" layoutY="518.0" mnemonicParsing="false" onAction="#fourthDayButton" prefHeight="96.0" prefWidth="210.0" stylesheets="@../CSS/buttons_learningPage.css" text="Four days ahead" textFill="#0e5882">
+         <font>
+            <Font name="Nunito SemiBold" size="16.0" />
+         </font></Button>
       <Label layoutX="94.0" layoutY="147.0" prefHeight="127.0" prefWidth="634.0" text="Weather forecast" textFill="WHITE">
          <font>
             <Font name="Lilita One" size="64.0" />

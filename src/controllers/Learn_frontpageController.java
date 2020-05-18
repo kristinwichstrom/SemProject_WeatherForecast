@@ -12,12 +12,11 @@ import java.io.IOException;
 public class Learn_frontpageController {
     Parent root;
     Stage stage;
-    //ScreenController screenController = new ScreenController();
+    ButtonActions buttonActions = new ButtonActions();
 
     public void homeButton(ActionEvent actionEvent) throws IOException {
+        buttonActions.homeButton(actionEvent);
 
-        root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
-        Stage(actionEvent);
     }
 
     public void learnCloudsButton(ActionEvent actionEvent) throws IOException {

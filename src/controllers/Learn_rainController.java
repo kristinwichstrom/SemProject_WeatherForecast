@@ -33,7 +33,7 @@ public class Learn_rainController {
     }
 
     public void button_back(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../sample/frontpage.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../sample/homePage.fxml"));
         Stage(actionEvent);
     }
 }

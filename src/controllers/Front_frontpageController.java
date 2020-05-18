@@ -11,6 +11,7 @@ import java.io.IOException;
 public class Front_frontpageController {
     Parent root;
     Stage stage;
+    ButtonActions buttonActions = new ButtonActions();
 
     public void Stage(ActionEvent actionEvent){
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
