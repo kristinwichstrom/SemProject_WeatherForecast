@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Learn_frontpageController {
     Parent root;
     Stage stage;
-    ScreenController screenController = new ScreenController();
+    //ScreenController screenController = new ScreenController();
 
     public void homeButton(ActionEvent actionEvent) throws IOException {
 
