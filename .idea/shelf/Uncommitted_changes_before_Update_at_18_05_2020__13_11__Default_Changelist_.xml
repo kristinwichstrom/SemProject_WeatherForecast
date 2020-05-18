@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_18_05_2020,_13_11_[Default_Changelist]" date="1589800302021" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2020,_13_11_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 18.05.2020, 13.11 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/images_learnMore/status_1000x1000.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2020,_13_11_[Default_Changelist]/status_1000x1000.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/images_learnMore/cumulus_1000x1000.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2020,_13_11_[Default_Changelist]/cumulus_1000x1000.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="src/images_learnMore/cirrus_1000x1000.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_05_2020,_13_11_[Default_Changelist]/cirrus_1000x1000.png" />
+  </binary>
+</changelist>
