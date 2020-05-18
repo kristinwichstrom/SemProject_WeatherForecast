@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="800" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMore_windController">
+<AnchorPane prefHeight="800" prefWidth="1280.0" style="-fx-background-color: #A0C6E7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMore_windController">
     <children>
     <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_learnMoreWind" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="Back to wind" textFill="WHITE">
         <font>
@@ -20,17 +20,17 @@
             <Font name="Lilita One" size="55.0" />
         </font>
     </Label>
-      <Text fill="#104f8a" layoutX="141.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Short bursts of wind are called gusts. Strong winds that go on for about one minute are called squalls. Winds that go on for long time can have many names, such as breeze, tornado and typhoon." wrappingWidth="406.28643798828125">
+      <Text fill="#104f8a" layoutX="141.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds have many names! Short bursts of wind are called gusts.  But winds that go on for longer time  are often more powerful. These can have many names, like breeze, gale and tornado." wrappingWidth="442.01708984375">
          <font>
             <Font name="Nunito SemiBold" size="17.0" />
          </font>
       </Text>
-      <ImageView fitHeight="266.0" fitWidth="292.0" layoutX="124.0" layoutY="254.0">
+      <ImageView fitHeight="266.0" fitWidth="292.0" layoutX="463.0" layoutY="258.0">
          <image>
             <Image url="@../images_learningPage/abstract1_1500x1500.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="306.0" fitWidth="307.0" layoutX="484.0" layoutY="232.0" nodeOrientation="RIGHT_TO_LEFT">
+      <ImageView fitHeight="281.0" fitWidth="307.0" layoutX="94.0" layoutY="243.0" nodeOrientation="RIGHT_TO_LEFT">
          <image>
             <Image url="@../images_learningPage/abstract2_1500x1500.png" />
          </image>
@@ -40,27 +40,47 @@
             <Image url="@../images_learningPage/abstract4_1500x1500.png" />
          </image>
       </ImageView>
-      <Text fill="#195bb2" layoutX="222.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breeze">
+      <Text fill="#195bb2" layoutX="215.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breeze">
          <font>
             <Font name="Lilita One" size="21.0" />
          </font>
       </Text>
-      <Text fill="#195bb2" layoutX="614.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gale">
+      <Text fill="#195bb2" layoutX="586.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gale">
          <font>
             <Font name="Lilita One" size="21.0" />
          </font>
       </Text>
-      <Text fill="#195bb2" layoutX="967.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tornado">
+      <Text fill="#195bb2" layoutX="980.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tornado">
          <font>
             <Font name="Lilita One" size="21.0" />
          </font>
       </Text>
-      <Text fill="#14428d" layoutX="903.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A tornado is a tube of spinning air that touches the ground. Wind inside the tornado spins fast, but the actual 'circle' of wind around them is huge. This makes tornadoes dangerous." wrappingWidth="237.95846557617188">
+      <Text fill="#14428d" layoutX="911.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A tornado spins the air around in a circle-formed tube. Wind inside the tornado spins very fast and this makes tornadoes dangerous." textAlignment="CENTER" wrappingWidth="237.95846557617188">
          <font>
             <Font name="Nunito SemiBold" size="14.0" />
          </font>
       </Text>
-      <Text fill="#14428d" layoutX="522.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A gale is a strong wind." wrappingWidth="237.95846557617188">
+      <Text fill="#14428d" layoutX="492.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A gale is strong wind. " textAlignment="CENTER" wrappingWidth="237.95846557617188">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="118.0" fitWidth="114.0" layoutX="190.0" layoutY="335.0">
+         <image>
+            <Image url="@../images_learnMorePage/breeze_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="963.0" layoutY="331.0">
+         <image>
+            <Image url="@../images_learnMorePage/tornado_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="125.0" layoutX="545.0" layoutY="331.0">
+         <image>
+            <Image url="@../images_learnMorePage/gale_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#14428d" layoutX="142.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A breeze is a light and gentle wind which we can just feel. A breeze happens because of two temperature differences in the air." textAlignment="CENTER" wrappingWidth="237.95846557617188">
          <font>
             <Font name="Nunito SemiBold" size="14.0" />
          </font>

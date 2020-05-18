@@ -19,6 +19,7 @@ public class Learn_cloudsController {
     }
 
     public void button_clouds_learnMore(ActionEvent actionEvent) throws IOException {
-       buttonActions.learnMoreClouds(actionEvent);
+        buttonActions.learnMoreClouds(actionEvent);
     }
-    }
+
+}

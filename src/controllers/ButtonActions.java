@@ -45,21 +45,25 @@ public class ButtonActions {
         Stage(actionEvent);
         return actionEvent;
     }
+
     public ActionEvent weatherFirst(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_first.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
+
     public ActionEvent weatherSecond(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_second.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
+
     public ActionEvent weatherThird(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_third.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
+
     public ActionEvent weatherFourth(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_fourth.fxml"));
         Stage(actionEvent);
@@ -119,6 +123,7 @@ public class ButtonActions {
         Stage(actionEvent);
         return actionEvent;
     }
+
     public ActionEvent learnMoreTemp(ActionEvent actionEvent) throws IOException { //rename method
         root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_temp.fxml"));
         Stage(actionEvent);

@@ -1,11 +1,6 @@
 package controllers;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
 
 import java.io.IOException;
 
@@ -13,7 +8,7 @@ public class Learn_temperatureController {
     ButtonActions buttonActions = new ButtonActions();
 
 
-    public void learnMoreTempButton(ActionEvent actionEvent) throws IOException{ //rename method
+    public void learnMoreTempButton(ActionEvent actionEvent) throws IOException { //rename method
         buttonActions.learnMoreTemp(actionEvent);
     }
 
