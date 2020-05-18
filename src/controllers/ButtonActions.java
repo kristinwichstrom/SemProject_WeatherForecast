@@ -41,7 +41,7 @@ public class ButtonActions {
      ** Weather Forecast pages: Scene shifts
      */
     public ActionEvent weatherFrontpage(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/weather_frontpage.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_frontpage.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
