@@ -4,6 +4,7 @@
 
 package controllers;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -24,11 +25,15 @@ public class TimeDateHandler {
         return logTime;
     }
     public String getTimeTomorrow() {
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
-        Date currentTime = new Date();
-        logTime = formatter.format(currentTime);
-        System.out.println(logTime);
 
-        return logTime;
+        String pattern = "EEEEE dd MMMMM yyyy HH:mm:ss";
+        Date today = new Date();
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(today);
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        Date tomorrow = calendar.getTime();
+
+        return null;
+
     }
 }

@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controllers.Weather_secondController"
-            prefHeight="800.0" prefWidth="1280.0">
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Weather_secondController">
     <children>
-        <Label fx:id="weatherTodayLabel" layoutX="438.0" layoutY="119.0"
-               prefHeight="43.0" prefWidth="144.0" text="Label" />
-        <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false"
-                onAction="#homeButton" prefHeight="70.0"
-                prefWidth="161.0" styleClass="buttonBackHome"
-                stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
+        <Label fx:id="weatherTomorrowLabel" layoutX="438.0" layoutY="119.0" prefHeight="43.0" prefWidth="144.0" text="Label" />
+        <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false" onAction="#homeButton" prefHeight="70.0" prefWidth="161.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="home" textFill="WHITE">
             <font>
                 <Font size="23.0" />
             </font>

@@ -16,7 +16,7 @@
     -fx-background-color: rgb(253, 153, 39);
     -fx-background-radius: 30 30 30 30;
     -fx-font-family: "Ariana Pro";
-    -fx-font-size: 16;
+    -fx-font-size: 14;
     -fx-text-fill: #ffffff;
 }
 .buttonLearnMore:hover {

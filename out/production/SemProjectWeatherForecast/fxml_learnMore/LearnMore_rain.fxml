@@ -37,9 +37,6 @@
          </font>
       </Text>
       <ImageView fitHeight="150.0" fitWidth="133.0" layoutX="458.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images_learningPage/clouds%20with%20rain.png" />
-         </image>
       </ImageView>
       <Text fill="#2f2da1" layoutX="472.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the clouds get heavy, they fall as rain." wrappingWidth="118.359375">
          <font>

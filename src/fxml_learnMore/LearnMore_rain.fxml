@@ -23,7 +23,7 @@
       </Text>
       <ImageView fitHeight="44.0" fitWidth="67.0" layoutX="163.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images_learningPage/arrow.png" />
+            <Image url="@../images_learnMorePage/arrow.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="107.0" fitWidth="143.0" layoutX="243.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
@@ -37,9 +37,6 @@
          </font>
       </Text>
       <ImageView fitHeight="150.0" fitWidth="133.0" layoutX="458.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images_learningPage/clouds%20with%20rain.png" />
-         </image>
       </ImageView>
       <Text fill="#2f2da1" layoutX="472.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the clouds get heavy, they fall as rain." wrappingWidth="118.359375">
          <font>
@@ -54,7 +51,7 @@
       <Text fill="#4023bf" layoutX="441.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You should wear boots when it's raining." wrappingWidth="83.5625" />
       <ImageView fitHeight="44.0" fitWidth="67.0" layoutX="381.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images_learningPage/arrow.png" />
+            <Image url="@../images_learnMorePage/arrow.png" />
          </image>
       </ImageView>
    </children>
