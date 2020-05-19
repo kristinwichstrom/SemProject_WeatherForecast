@@ -85,5 +85,20 @@
             <Font name="Nunito SemiBold" size="14.0" />
          </font>
       </Text>
+      <ImageView fitHeight="218.0" fitWidth="330.0" layoutX="932.0" layoutY="34.0">
+         <image>
+            <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="146.0" layoutX="835.0" layoutY="67.0" nodeOrientation="RIGHT_TO_LEFT">
+         <image>
+            <Image url="@../images_learnMorePage/windthing_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#14428d" layoutX="982.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can you see which direction the flag blows? Instruments like a wind sock or a wind vane can tell which direction and at what speed the wind is blowing." textAlignment="CENTER" wrappingWidth="237.95846557617188">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
     </children>
 </AnchorPane>
