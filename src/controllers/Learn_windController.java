@@ -8,8 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class Learn_windController {
-    Parent root;
-    Stage stage;
+
     ButtonActions buttonActions = new ButtonActions();
 
     public void button_wind_learnMore(ActionEvent actionEvent) throws IOException {
