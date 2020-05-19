@@ -113,7 +113,7 @@ public class ButtonActions {
     }
 
     public ActionEvent learnMoreRain(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/LearnMore_rain.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_learnMore/LearnMore_rain.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
