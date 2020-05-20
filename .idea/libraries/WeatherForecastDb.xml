@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WeatherForecastDb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../WeatherForecastDb/out/artifacts/WeatherForecastDb_jar/WeatherForecastDb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
