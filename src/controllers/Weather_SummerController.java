@@ -122,6 +122,9 @@ public class Weather_SummerController {
         String cloth = afternoon.get(TariffTableTypes.CLOTH_TARIFF).get("CLOTH_DESCRIPTION");
         clothSuggestion.setText(cloth);
 
+        weatherTodayLabel.setText(timeDateHandler.getCurrentTime());
+        System.out.println();
+
     }
 
     /**
@@ -136,8 +139,7 @@ public class Weather_SummerController {
      * Calls method for getting current time
      */
     public void clickButton(javafx.event.ActionEvent actionEvent) {
-        weatherTodayLabel.setText(timeDateHandler.getCurrentTime());
-        System.out.println();
+
     }
 
     public void homeButton(ActionEvent actionEvent) throws IOException {

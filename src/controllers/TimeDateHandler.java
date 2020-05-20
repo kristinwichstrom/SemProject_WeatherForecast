@@ -16,7 +16,7 @@ public class TimeDateHandler {
 
     }
     public String getCurrentTime() {
-        String pattern = "EEEEE dd MMMMM yyyy HH:mm:ss";
+        String pattern = "EEEEE dd MMMMM yyyy";
         SimpleDateFormat formatter = new SimpleDateFormat(pattern,new Locale("en","US"));
         Date currentTime = new Date();
         logTime = formatter.format(currentTime);
