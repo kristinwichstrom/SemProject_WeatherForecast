@@ -31,7 +31,7 @@ public class ButtonActions {
      */
 
     public ActionEvent homeButton(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../sample/homePage.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../sample/HomePage.fxml"));
         Stage(actionEvent);
         return actionEvent;
 
@@ -42,32 +42,32 @@ public class ButtonActions {
      */
     public ActionEvent weatherFrontpage(ActionEvent actionEvent) throws IOException {
 
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_frontpage.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_Frontpage.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
 
     public ActionEvent weatherFirst(ActionEvent actionEvent) throws IOException {
 
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_first.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_Summer.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
 
     public ActionEvent weatherSecond(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_second.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_Autumn.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
 
     public ActionEvent weatherThird(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_third.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_Winter.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }
 
     public ActionEvent weatherFourth(ActionEvent actionEvent) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_fourth.fxml"));
+        root = FXMLLoader.load(getClass().getResource("../fxml_weatherForecast/Weather_Spring.fxml"));
         Stage(actionEvent);
         return actionEvent;
     }

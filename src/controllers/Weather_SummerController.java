@@ -7,13 +7,14 @@ import WeatherForecast.ForcastHandler.TariffTableTypes;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.text.Text;
 
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
-public class Weather_firstController {
+public class Weather_SummerController {
 
     @FXML
     private Label weatherTodayLabel;
@@ -56,7 +57,9 @@ public class Weather_firstController {
     @FXML
     private Label gameSuggestion;
     @FXML
-    private Label clothSuggestion;
+    private Text clothSuggestion;
+    @FXML
+    private Text gameDescription;
 
     public void initialize(){
         /**

@@ -58,10 +58,10 @@
             <Image url="@../images_learnMorePage/arrow.png" />
          </image>
       </ImageView>
-      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_rain_learnMore" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/buttons_learningPage.css" text="Back to rain" textFill="WHITE">
+      <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#button_rain_learnMore" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to rain" textFill="WHITE">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/buttons_learningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#button_back" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
    </children>
 </AnchorPane>

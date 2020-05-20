@@ -6,7 +6,7 @@ import javafx.scene.control.Label;
 
 import java.io.IOException;
 
-public class Weather_secondController {
+public class Weather_AutumnController {
     ButtonActions buttonActions = new ButtonActions();
     TimeDateHandler timeDateHandler = new TimeDateHandler();
     @FXML
@@ -16,7 +16,7 @@ public class Weather_secondController {
     public void homeButton(ActionEvent actionEvent) throws IOException {
         buttonActions.weatherFrontpage(actionEvent);
 
-        weatherTomorrowLabel.setText(timeDateHandler.getTimeTomorrow());
+        weatherTomorrowLabel.setText(timeDateHandler.getCurrentTime());
 
 
     }

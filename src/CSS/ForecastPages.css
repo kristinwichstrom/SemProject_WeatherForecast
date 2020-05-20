@@ -1,0 +1,32 @@
+
+.background_clouds {
+    -fx-background-image: url("/images_backgroundImages/background_cloud.png");
+    -fx-opacity: 70;
+    -fx-background-color: #99caea;
+
+}
+.pane_morning{
+    -fx-font-family: Nunito SemiBold;
+    -fx-background-color: #5C9CEF;
+    -fx-opacity: 60;
+    -fx-background-radius: 30 30 30 30;
+}
+.pane_afternoon{
+    -fx-font-family: Nunito SemiBold;
+    -fx-opacity: 60;
+    -fx-background-color: #3E6393;
+    -fx-background-radius: 30 30 30 30;
+}
+.pane_evening{
+    -fx-font-family: Nunito SemiBold;
+    -fx-background-color: #749dd9;
+    -fx-opacity: 60;
+    -fx-background-radius: 30 30 30 30;
+}
+.pane_game{
+    -fx-font-family: Nunito SemiBold;
+    -fx-opacity: 60;
+    -fx-background-color: #d3e3fa;
+    -fx-background-radius: 30 30 30 30;
+
+}
