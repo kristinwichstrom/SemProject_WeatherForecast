@@ -57,9 +57,13 @@ public class Weather_SummerController {
     @FXML
     private Label gameSuggestion;
     @FXML
-    private Text clothSuggestion;
-    @FXML
     private Text gameDescription;
+
+    @FXML
+    private Label clothSuggestion;
+    @FXML
+    private Text clothDescription;
+
 
     public void initialize(){
         /**
@@ -116,11 +120,16 @@ public class Weather_SummerController {
         String eveningSnow = evening.get(TariffTableTypes.SNOW_TARIFF).get("SNOW")+" cm";
         snowEvening.setText(eveningSnow);
 
-        String game = afternoon.get(TariffTableTypes.GAME_TARIFF).get("GAME_NAME");
-        gameSuggestion.setText(game);
+        String gameName = afternoon.get(TariffTableTypes.GAME_TARIFF).get("GAME_NAME");
+        gameSuggestion.setText(gameName);
+        String gameDesc = afternoon.get(TariffTableTypes.GAME_TARIFF).get("GAME_DESCRIPTION");
+        gameDescription.setText(gameDesc);
 
-        String cloth = afternoon.get(TariffTableTypes.CLOTH_TARIFF).get("CLOTH_DESCRIPTION");
-        clothSuggestion.setText(cloth);
+        String clothName = afternoon.get(TariffTableTypes.CLOTH_TARIFF).get("CLOTH_NAME");
+        clothSuggestion.setText(clothName);
+        String clothDesc = afternoon.get(TariffTableTypes.CLOTH_TARIFF).get("CLOTH_DESCRIPTION");
+        clothDescription.setText(clothDesc);
+
 
         weatherTodayLabel.setText(timeDateHandler.getCurrentTime());
         System.out.println();

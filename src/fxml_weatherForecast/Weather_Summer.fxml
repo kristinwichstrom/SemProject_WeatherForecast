@@ -124,7 +124,7 @@
                   <Font name="Nunito SemiBold" size="14.0" />
                </font>
             </Text>
-            <Label fx:id="gameSuggestion" alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="19.0" text="Build a snowman" textAlignment="CENTER" textFill="#18518d">
+            <Label fx:id="gameSuggestion" alignment="CENTER" contentDisplay="CENTER" layoutX="94.0" layoutY="20.0" text="Build a snowman" textAlignment="CENTER" textFill="#18518d">
                <font>
                   <Font name="Nunito SemiBold" size="20.0" />
                </font>
@@ -133,12 +133,12 @@
       </AnchorPane>
       <AnchorPane layoutX="634.0" layoutY="530.0" opacity="0.86" prefHeight="219.0" prefWidth="399.0" styleClass="pane_game">
          <children>
-            <Label fx:id="gameSuggestion1" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="29.0" text="Umbrella" textAlignment="CENTER" textFill="#18518d">
+            <Label fx:id="clothSuggestion" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="29.0" text="Umbrella" textAlignment="CENTER" textFill="#18518d">
                <font>
                   <Font name="Nunito SemiBold" size="20.0" />
                </font>
             </Label>
-            <Text fx:id="clothSuggestion" fill="#114f8a" layoutX="30.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The wind is strong. So if you want to bring an umbrella, make sure it is a good one, so it wont break.The wind is strong. So if you want to bring an umbrella, make sure it is a good one, so it wont break." textAlignment="CENTER" wrappingWidth="337.2459716796875">
+            <Text fx:id="clothDescription" fill="#114f8a" layoutX="30.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The wind is strong. So if you want to bring an umbrella, make sure it is a good one, so it wont break.The wind is strong. So if you want to bring an umbrella, make sure it is a good one, so it wont break." textAlignment="CENTER" wrappingWidth="337.2459716796875">
                <font>
                   <Font name="Nunito SemiBold" size="14.0" />
                </font></Text>
