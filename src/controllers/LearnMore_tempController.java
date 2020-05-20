@@ -16,7 +16,6 @@ public class LearnMore_tempController {
     public void Stage(ActionEvent actionEvent){
         stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         getScene();
-
     }
 
     public void getScene () {
@@ -25,7 +24,7 @@ public class LearnMore_tempController {
         stage.show();
     }
 
-    public void button_learnMoreTemp(ActionEvent actionEvent)throws IOException { //rename method
+    public void button_learnMore(ActionEvent actionEvent)throws IOException { //rename method
         root = FXMLLoader.load(getClass().getResource("../fxml_learningPage/Learn_temperature.fxml"));
         Stage(actionEvent);
     }
@@ -35,6 +34,7 @@ public class LearnMore_tempController {
         Stage(actionEvent);
     }
 
-    public void button_learnMore(ActionEvent actionEvent) {
-    }
+
+
+
 }
