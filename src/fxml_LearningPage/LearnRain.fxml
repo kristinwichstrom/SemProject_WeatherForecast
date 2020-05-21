@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="800" maxWidth="1280" minHeight="800" minWidth="1280" prefHeight="800" prefWidth="1280"
+            styleClass="learnrainbg" stylesheets="@../CSS/BackgroundImage_LearningPages.css"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnController">
+    <children>
+        <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#learnMoreRainButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/Buttons_LearningPage.css" text="More about rain" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></Button>
+        <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+        <Label layoutX="95.0" layoutY="161.0" text="What is rain?" textFill="WHITE">
+            <font>
+                <Font name="Lilita One" size="67.0" />
+            </font>
+        </Label>
+        <Text fill="#063979" layoutX="102.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water is available in three forms. It can either be liquid, which is called water, or solid called ice or gas called vapour. Rain is the liquid form of water that falls down from the clouds or raindrops. " wrappingWidth="572.3515014648438">
+            <font>
+                <Font name="Nunito SemiBold" size="22.0" />
+            </font>
+        </Text>
+      <ImageView fitHeight="427.0" fitWidth="442.0" layoutX="755.0" layoutY="111.0">
+         <image>
+            <Image url="@../images_learningPage/abstract4_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="405.0" fitWidth="436.0" layoutX="534.0" layoutY="328.0">
+         <image>
+            <Image url="@../images_learningPage/abstract2_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#063979" layoutX="634.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snow is the solid form of water. It forms tiny crystals that fall down from the sky. " textAlignment="CENTER" wrappingWidth="258.39003514051257">
+         <font>
+            <Font name="Nunito SemiBold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="858.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rain is the liquid form of water that falls down from the clouds or raindrops. " textAlignment="CENTER" wrappingWidth="258.39003514051257">
+         <font>
+            <Font name="Nunito SemiBold" size="22.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

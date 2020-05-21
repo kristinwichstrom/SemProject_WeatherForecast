@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: A5EAFD;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMoreController">
+    <children>
+    <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#cloudsButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to clouds" textFill="WHITE">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font></Button>
+    <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+    <Label layoutX="140.0" layoutY="67.0" text="Types of clouds" textFill="WHITE">
+        <font>
+            <Font name="Lilita One" size="55.0" />
+        </font>
+    </Label>
+      <Text fill="#072f72" layoutX="155.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the sun is up, the clouds determines how much the sun is shining. When there is a lot of clouds on the sky, you can't see the sun that clear. But when there is no clouds, the sky is all blue, and the sun can be very strong. " wrappingWidth="447.8950958251953">
+         <font>
+            <Font name="Nunito SemiBold" size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="247.0" fitWidth="388.0" layoutX="781.0" layoutY="49.0">
+         <image>
+            <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
+         </image>
+      </ImageView>
+      <Text fill="#09388a" layoutX="861.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can have different shapes, size, color and texture. There are three main types of clouds:" wrappingWidth="266.0303163672173">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Line endX="521.095458984375" endY="3.0517578125E-5" layoutX="603.0" layoutY="442.0" startX="-468.39251708984375" startY="3.0517578125E-5" stroke="WHITE" strokeWidth="5.0" />
+      <Circle fill="#6fa0e9" layoutX="635.0" layoutY="443.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#6fa0e9" layoutX="264.0" layoutY="442.0" radius="35.0" stroke="BLACK" strokeMiterLimit="6.0" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#6fa0e9" layoutX="956.0" layoutY="443.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="#063586" layoutX="163.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulus might appear like a big white candyfloss on the sky. This is one of the most common types of clouds." textAlignment="CENTER" wrappingWidth="202.77972412109375">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#063586" layoutX="531.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stratus are clouds that covers the sky like a blanked, in white and gray colour." textAlignment="CENTER" wrappingWidth="202.77972412109375">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#063586" layoutX="855.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cirrus are delicate clouds with a silky look. They have a thread-like structure, almost like hair." textAlignment="CENTER" wrappingWidth="202.77972412109375">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="226.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulus">
+         <font>
+            <Font name="Nunito SemiBold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="605.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stratus">
+         <font>
+            <Font name="Nunito SemiBold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="932.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cirrus">
+         <font>
+            <Font name="Nunito SemiBold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="174.0" fitWidth="184.0" layoutX="172.0" layoutY="252.0">
+         <image>
+            <Image url="@../images_learnMorePage/cumulus_1000x1000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="170.0" layoutX="550.0" layoutY="267.0">
+         <image>
+            <Image url="@../images_learnMorePage/status_1000x1000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="857.0" layoutY="263.0">
+         <image>
+            <Image url="@../images_learnMorePage/cirrus_1000x1000.png" />
+         </image>
+      </ImageView>
+
+    </children>
+</AnchorPane>

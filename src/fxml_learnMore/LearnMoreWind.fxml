@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800" prefWidth="1280.0" style="-fx-background-color: #A0C6E7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LearnMoreController">
+    <children>
+    <Button layoutX="35.0" layoutY="695.0" mnemonicParsing="false" onAction="#windButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonLearnMore" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to wind" textFill="WHITE">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font></Button>
+    <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+    <Label layoutX="140.0" layoutY="67.0" text="Types of wind" textFill="#3d82be">
+        <font>
+            <Font name="Lilita One" size="55.0" />
+        </font>
+    </Label>
+      <Text fill="#104f8a" layoutX="141.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds have many names! Short bursts of wind are called gusts.  But winds that go on for longer time  are often more powerful. These can have many names, like breeze, gale and tornado." wrappingWidth="442.01708984375">
+         <font>
+            <Font name="Nunito SemiBold" size="17.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="266.0" fitWidth="292.0" layoutX="463.0" layoutY="258.0">
+         <image>
+            <Image url="@../images_learningPage/abstract1_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="281.0" fitWidth="307.0" layoutX="94.0" layoutY="243.0" nodeOrientation="RIGHT_TO_LEFT">
+         <image>
+            <Image url="@../images_learningPage/abstract2_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="290.0" fitWidth="306.0" layoutX="861.0" layoutY="242.0">
+         <image>
+            <Image url="@../images_learningPage/abstract4_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#195bb2" layoutX="215.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Breeze">
+         <font>
+            <Font name="Lilita One" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#195bb2" layoutX="586.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gale">
+         <font>
+            <Font name="Lilita One" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#195bb2" layoutX="980.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tornado">
+         <font>
+            <Font name="Lilita One" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#14428d" layoutX="911.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A tornado spins the air around in a circle-formed tube. Wind inside the tornado spins very fast and this makes tornadoes dangerous." textAlignment="CENTER" wrappingWidth="237.95846557617188">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#14428d" layoutX="492.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A gale is strong wind. " textAlignment="CENTER" wrappingWidth="237.95846557617188">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="118.0" fitWidth="114.0" layoutX="190.0" layoutY="335.0">
+         <image>
+            <Image url="@../images_learnMorePage/breeze_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="963.0" layoutY="331.0">
+         <image>
+            <Image url="@../images_learnMorePage/tornado_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="125.0" layoutX="545.0" layoutY="331.0">
+         <image>
+            <Image url="@../images_learnMorePage/gale_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#14428d" layoutX="142.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A breeze is a light and gentle wind which we can just feel. A breeze happens because of two temperature differences in the air." textAlignment="CENTER" wrappingWidth="237.95846557617188">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="218.0" fitWidth="330.0" layoutX="932.0" layoutY="34.0">
+         <image>
+            <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="146.0" layoutX="835.0" layoutY="67.0" nodeOrientation="RIGHT_TO_LEFT">
+         <image>
+            <Image url="@../images_learnMorePage/windthing_1500x1500.png" />
+         </image>
+      </ImageView>
+      <Text fill="#14428d" layoutX="982.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can you see which direction the flag blows? Instruments like a wind sock or a wind vane can tell which direction and at what speed the wind is blowing." textAlignment="CENTER" wrappingWidth="237.95846557617188">
+         <font>
+            <Font name="Nunito SemiBold" size="14.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

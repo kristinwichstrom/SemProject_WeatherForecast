@@ -33,7 +33,7 @@
     -fx-background-color: rgb(73, 130, 182);
     -fx-background-radius: 30 30 30 30;
     -fx-font-family: "Nunito SemiBold";
-    -fx-font-size: 16;
+    -fx-font-size: 14;
     -fx-text-fill: #ffffff;
 }
 .buttonBackHome:hover {
