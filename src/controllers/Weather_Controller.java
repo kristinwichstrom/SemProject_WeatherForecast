@@ -75,6 +75,7 @@ public class Weather_Controller {
         Map<TariffTableTypes,Map<String, String>> afternoon = Front_frontpageController.today.get(1);
         Map<TariffTableTypes,Map<String, String>> evening = Front_frontpageController.today.get(2);
 
+        season.setText(Front_frontpageController.season);
 
 
         //System.out.println("today:                     "+today);

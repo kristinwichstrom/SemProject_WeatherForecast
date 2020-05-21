@@ -10,10 +10,6 @@
 
 <AnchorPane cache="true" prefHeight="800.0" prefWidth="1280.0" styleClass="background_clouds" stylesheets="@../CSS/ForecastPages.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Weather_Controller">
    <children>
-      <Label fx:id="weatherTodayLabel" contentDisplay="CENTER" layoutX="589.0" layoutY="24.0" prefHeight="67.0" prefWidth="389.0" text="Date" textFill="WHITE">
-         <font>
-            <Font name="Nunito Light" size="19.0" />
-         </font></Label>
       <Button layoutX="1081.0" layoutY="679.0" mnemonicParsing="false" onAction="#homeButton" prefHeight="70.0" prefWidth="161.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to forecast" textFill="WHITE">
          <font>
             <Font size="23.0" />
@@ -149,7 +145,7 @@
             <Font name="Lilita One" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="495.0" layoutY="43.0" text="Summer" textFill="WHITE">
+      <Label fx:id="season" alignment="CENTER" layoutX="495.0" layoutY="41.0" prefHeight="50.0" prefWidth="201.0" text="Season" textFill="WHITE">
          <font>
             <Font name="Nunito SemiBold" size="20.0" />
          </font>
