@@ -20,12 +20,12 @@
             <Font name="Lilita One" size="60.0" />
          </font>
       </Label>
-      <Text fill="#063979" layoutX="102.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A cloud is made up of millions of tiny water droplets or ice crystals floating together in the air." wrappingWidth="540.5676879882812">
+      <Text fill="#063979" layoutX="102.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A cloud is made up of millions of tiny water droplets or ice crystals floating together in the air." wrappingWidth="540.5676879882812">
          <font>
             <Font name="Nunito Regular" size="28.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="34.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are three types of clouds. Click to read more about them." textAlignment="CENTER" wrappingWidth="226.1499786376953">
+      <Text fill="WHITE" layoutX="24.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are three types of clouds. Click to read more about them." textAlignment="CENTER" wrappingWidth="226.1499786376953">
          <font>
             <Font name="Nunito SemiBold" size="18.0" />
          </font>
@@ -37,7 +37,7 @@
       </ImageView>
       <Text fill="#034494" layoutX="922.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have you ever seen some long trails of clouds in the sky? Some clouds can be formed by airplanes. These are called contrail clouds." wrappingWidth="255.34031677246094">
          <font>
-            <Font name="Nunito Light" size="20.0" />
+            <Font name="Nunito SemiBold" size="20.0" />
          </font>
       </Text>
       <ImageView fitHeight="280.0" fitWidth="378.0" layoutX="698.0" layoutY="378.0">
@@ -45,9 +45,9 @@
             <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
          </image>
       </ImageView>
-      <Text fill="#034494" layoutX="764.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can even travel at super high speeds, even more than 100 miles per hour!" textAlignment="CENTER" wrappingWidth="255.34031677246094">
+      <Text fill="#034494" layoutX="758.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can even travel at super high speeds, even more than 100 miles per hour!" textAlignment="CENTER" wrappingWidth="255.34031677246094">
          <font>
-            <Font name="Nunito SemiBold" size="24.0" />
+            <Font name="Nunito SemiBold" size="19.0" />
          </font>
       </Text>
    </children>

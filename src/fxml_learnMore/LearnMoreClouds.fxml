@@ -22,7 +22,7 @@
             <Font name="Lilita One" size="55.0" />
         </font>
     </Label>
-      <Text fill="#072f72" layoutX="155.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the sun is up, the clouds determines how much the sun is shining. When there is a lot of clouds on the sky, you can't see the sun that clear. But when there is no clouds, the sky is all blue, and the sun can be very strong. " wrappingWidth="447.8950958251953">
+      <Text fill="#072f72" layoutX="145.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the sun is up, the clouds determines how much the sun is shining. When there is a lot of clouds on the sky, you can't see the sun that clear. But when there is no clouds, the sky is all blue, and the sun can be very strong. " wrappingWidth="447.8950958251953">
          <font>
             <Font name="Nunito SemiBold" size="16.0" />
          </font>
@@ -32,9 +32,9 @@
             <Image url="@../images_learningPage/white_abstractCloud_1000x1000.png" />
          </image>
       </ImageView>
-      <Text fill="#09388a" layoutX="861.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can have different shapes, size, color and texture. There are three main types of clouds:" wrappingWidth="266.0303163672173">
+      <Text fill="#09388a" layoutX="846.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clouds can have different shapes, size, color and texture. There are three main types of clouds:" textAlignment="CENTER" wrappingWidth="266.0303163672173">
          <font>
-            <Font size="18.0" />
+            <Font name="Nunito SemiBold" size="17.0" />
          </font>
       </Text>
       <Line endX="521.095458984375" endY="3.0517578125E-5" layoutX="603.0" layoutY="442.0" startX="-468.39251708984375" startY="3.0517578125E-5" stroke="WHITE" strokeWidth="5.0" />

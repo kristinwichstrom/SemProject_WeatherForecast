@@ -27,3 +27,7 @@
     -fx-background-color: #99caea;
 
 }
+.learnmorerainbg {
+    -fx-background-image: url("/images_backgroundImages/rainbg_1480x1000.png");
+    -fx-background-color:  #B7E4FF
+}
