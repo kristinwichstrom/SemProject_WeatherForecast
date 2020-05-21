@@ -13,7 +13,6 @@ import javafx.scene.text.Text;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
-
 public class Weather_Controller {
 
     @FXML
