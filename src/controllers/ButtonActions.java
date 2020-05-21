@@ -32,6 +32,7 @@ public class ButtonActions {
         this.stage.show();
     }
 
+
     public ActionEvent homeButton(ActionEvent actionEvent) throws IOException {
         this.root = (Parent)FXMLLoader.load(this.getClass().getResource("../sample/HomePage.fxml"));
         this.Stage(actionEvent);
