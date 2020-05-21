@@ -30,9 +30,11 @@ public class LearnMore_rainController {
         Stage(actionEvent);
     }
 
-    public void button_learnMoreRain(ActionEvent actionEvent) throws IOException {
+    public void button_learnMore(ActionEvent actionEvent) throws IOException {
         root = FXMLLoader.load(getClass().getResource("../fxml_learningMore/LearnMore_wind.fxml"));
         Stage(actionEvent);
     }
+
+
 
 }
