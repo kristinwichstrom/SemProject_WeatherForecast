@@ -14,10 +14,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
-public class Weather_SummerController {
+public class Weather_Controller {
 
     @FXML
     private Label weatherTodayLabel;
+
+    @FXML
+    private Label season;
 
     @FXML
     private Label tempMorning;
@@ -66,14 +69,12 @@ public class Weather_SummerController {
 
 
     public void initialize(){
-        /**
-         * Gets the values on index 0 - which is the first day.
-         */
-        today = Front_frontpageController.weatherForecastFromDb.get(0);
 
-        Map<TariffTableTypes, Map<String, String>> morning = today.get(0);
-        Map<TariffTableTypes,Map<String, String>> afternoon = today.get(1);
-        Map<TariffTableTypes,Map<String, String>> evening = today.get(2);
+
+        Map<TariffTableTypes, Map<String, String>> morning = Front_frontpageController.today.get(0);
+        Map<TariffTableTypes,Map<String, String>> afternoon = Front_frontpageController.today.get(1);
+        Map<TariffTableTypes,Map<String, String>> evening = Front_frontpageController.today.get(2);
+
 
 
         //System.out.println("today:                     "+today);
@@ -130,16 +131,13 @@ public class Weather_SummerController {
         String clothDesc = afternoon.get(TariffTableTypes.CLOTH_TARIFF).get("CLOTH_DESCRIPTION");
         clothDescription.setText(clothDesc);
 
-
+/*
         weatherTodayLabel.setText(timeDateHandler.getCurrentTime());
         System.out.println();
 
-    }
+ */
 
-    /**
-     * Creating an ArrayList<Map<TariffTableTypes,Map<String, String>>> that can hold the weather for today
-     */
-    private ArrayList<Map<TariffTableTypes, Map<String, String>>> today;
+    }
 
     TimeDateHandler timeDateHandler = new TimeDateHandler();
     ButtonActions buttonActions = new ButtonActions();

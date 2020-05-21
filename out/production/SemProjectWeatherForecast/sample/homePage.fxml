@@ -31,11 +31,6 @@
             <Font name="Nunito Regular" size="71.0" />
          </font>
       </Label>
-      <ImageView fitHeight="481.0" fitWidth="498.0" layoutX="547.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images_frontpage/raindrops_abstract_1000x1000.png" />
-         </image>
-      </ImageView>
       <ImageView fitHeight="216.0" fitWidth="255.0" layoutX="78.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images_frontpage/ting.png" />
@@ -54,6 +49,11 @@
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="177.0" layoutY="32.0">
          <image>
             <Image url="@../images_frontpage/sun2_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="481.0" fitWidth="498.0" layoutX="547.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images_frontpage/raindrops_abstract_1000x1000.png" />
          </image>
       </ImageView>
    </children>

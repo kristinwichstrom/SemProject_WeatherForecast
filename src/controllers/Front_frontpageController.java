@@ -1,5 +1,6 @@
 package controllers;
 import WeatherForecast.ForcastHandler.ForecastHandler;
+import WeatherForecast.ForcastHandler.TariffTableTypes;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -8,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Map;
 
 
 public class Front_frontpageController {
@@ -16,6 +18,13 @@ public class Front_frontpageController {
      * Create an Arraylist<Arraylist> that can hold the fourDaysWeatherForecast, from our DB-jar file
      */
     public static ArrayList<ArrayList> weatherForecastFromDb;
+
+    /**
+     * Creating an ArrayList<Map<TariffTableTypes,Map<String, String>>> that can hold the weather for today
+     */
+    public static ArrayList<Map<TariffTableTypes, Map<String, String>>> today;
+
+    public static String season;
 
     ButtonActions buttonActions = new ButtonActions();
 
