@@ -77,7 +77,6 @@ public class Weather_Controller {
 
         season.setText(Front_frontpageController.season);
 
-
         //System.out.println("today:                     "+today);
         //System.out.println("today morning:             "+morning);
         //System.out.println("today morning temp:        "+morning.get(TariffTableTypes.TEMP_TARIFF));
@@ -141,6 +140,7 @@ public class Weather_Controller {
     }
 
     TimeDateHandler timeDateHandler = new TimeDateHandler();
+
     ButtonActions buttonActions = new ButtonActions();
 
     /**
