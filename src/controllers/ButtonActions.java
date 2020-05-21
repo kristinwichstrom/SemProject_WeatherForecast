@@ -45,6 +45,7 @@ public class ButtonActions {
         return actionEvent;
     }
 
+
     public ActionEvent weatherFirst(ActionEvent actionEvent) throws IOException {
         Front_frontpageController.today = (ArrayList)Front_frontpageController.weatherForecastFromDb.get(0);
         Front_frontpageController.season = "SUMMER";
