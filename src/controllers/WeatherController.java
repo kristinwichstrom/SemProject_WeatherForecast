@@ -83,6 +83,13 @@ public class WeatherController {
     private Label snowEvening;
 
     @FXML
+    private Text snowDescMorning;
+    @FXML
+    private Text snowDescEvening;
+    @FXML
+    private Text snowDescAfternoon;
+
+    @FXML
     private Text gameSuggestion;
     @FXML
     private Text gameDescription;
@@ -121,44 +128,44 @@ public class WeatherController {
 
         String morningWind = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND") + " m/s";
         windMorning.setText(morningWind);
-        String morningWindTxt = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
-        windTxtMorning.setText(morningWindTxt);
+        //String morningWindTxt = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
+        //windTxtMorning.setText(morningWindTxt);
         String morningWindDesc = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND_DESCRIPTION");
         windDescMorning.setText(morningWindDesc);
 
         String afternoonWind = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND") + " m/s";
         windAfternoon.setText(afternoonWind);
-        String afternoonWindTxt = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
-        windTxtAfternoon.setText(afternoonWindTxt);
+        //String afternoonWindTxt = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
+        //windTxtAfternoon.setText(afternoonWindTxt);
         String afternoonWindDesc = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND_DESCRIPTION");
         windDescAfternoon.setText(afternoonWindDesc);
 
         String eveningWind = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND") + " m/s";
         windEvening.setText(eveningWind);
-        String eveningWindTxt = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
-        windTxtEvening.setText(eveningWindTxt);
+        //String eveningWindTxt = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
+        //windTxtEvening.setText(eveningWindTxt);
         String eveningWindDesc = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND_DESCRIPTION");
         windDescEvening.setText(eveningWindDesc);
 
         String morningRain = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN") + " mm";
         rainMorning.setText(morningRain);
-        String morningRainTxt = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
-        rainTxtMorning.setText(morningRainTxt);
+        //String morningRainTxt = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
+        //rainTxtMorning.setText(morningRainTxt);
         String morningRainDesc = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_DESCRIPTION");
         rainDescMorning .setText(morningRainDesc);
 
         String afternoonRain = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN") + " mm";
         rainAfternoon.setText(afternoonRain);
-        String afternoonRainTxt = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
-        rainTxtAfternoon.setText(afternoonRainTxt);
+        //String afternoonRainTxt = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
+        //rainTxtAfternoon.setText(afternoonRainTxt);
         String afternoonRainDesc = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_DESCRIPTION");
         rainDescAfternoon.setText(afternoonRainDesc);
 
 
         String eveningRain = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN") + " mm";
         rainEvening.setText(eveningRain);
-        String eveningRainTxt = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
-        rainTxtEvening.setText(eveningRainTxt);
+        //String eveningRainTxt = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
+        //rainTxtEvening.setText(eveningRainTxt);
         String eveningRainDesc = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_DESCRIPTION");
         rainDescEvening.setText(eveningRainDesc);
 
@@ -171,10 +178,16 @@ public class WeatherController {
 
         String morningSnow = morning.get(TariffTableTypes.SNOW_TARIFF).get("SNOW") + " cm";
         snowMorning.setText(morningSnow);
+        String morningSnowDesc = evening.get(TariffTableTypes.SNOW_TARIFF).get("SNOW_DESCRIPTION");
+        snowDescMorning.setText(morningSnowDesc);
         String afternoonSnow = afternoon.get(TariffTableTypes.SNOW_TARIFF).get("SNOW") + " cm";
         snowAfternoon.setText(afternoonSnow);
+        String afternoonSnowDesc = evening.get(TariffTableTypes.SNOW_TARIFF).get("SNOW_DESCRIPTION");
+        snowDescAfternoon.setText(afternoonSnowDesc);
         String eveningSnow = evening.get(TariffTableTypes.SNOW_TARIFF).get("SNOW") + " cm";
         snowEvening.setText(eveningSnow);
+        String eveningSnowDesc = evening.get(TariffTableTypes.SNOW_TARIFF).get("SNOW_DESCRIPTION");
+        snowDescEvening.setText(eveningSnowDesc);
 
         String gameName = afternoon.get(TariffTableTypes.GAME_TARIFF).get("GAME_NAME");
         gameSuggestion.setText(gameName);
