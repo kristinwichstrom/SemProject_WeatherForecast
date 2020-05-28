@@ -22,12 +22,18 @@ public class ButtonActions {
     public ButtonActions() {
     }
 
+    /*
+     ** Gets Stage information
+     */
     public void Stage(ActionEvent actionEvent) {
         this.stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        this.getScene();
+        this.Scene();
     }
 
-    public void getScene() {
+    /*
+     ** Sets a new Scene
+     */
+    public void Scene() {
         Scene scene = new Scene(this.root);
         this.stage.setScene(scene);
         this.stage.show();

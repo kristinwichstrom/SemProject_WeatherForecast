@@ -20,7 +20,7 @@
             <Font name="Lilita One" size="55.0" />
         </font>
     </Label>
-      <Text fill="#104f8a" layoutX="141.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds have many names! Short bursts of wind are called gusts.  But winds that go on for longer time  are often more powerful. These can have many names, like breeze, gale and tornado." wrappingWidth="442.01708984375">
+      <Text fill="#104f8a" layoutX="141.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winds have many names! Short bursts of wind are called gusts. And there are many more winds out there as well. These can have many names, like breeze, gale and tornado." wrappingWidth="462.01708984375">
          <font>
             <Font name="Nunito SemiBold" size="17.0" />
          </font>

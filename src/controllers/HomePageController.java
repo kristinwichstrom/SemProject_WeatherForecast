@@ -12,12 +12,12 @@ import java.util.Map;
 public class HomePageController {
 
     /**
-     * Create an Arraylist<Arraylist> that can hold the fourDaysWeatherForecast, from our DB-jar file
+     * Create an Arraylist<Arraylist> that can hold the fourDaysWeatherForecast from our DB-jar file
      */
     public static ArrayList<ArrayList> weatherForecastFromDb;
 
     /**
-     * Creating an ArrayList<Map<TariffTableTypes,Map<String, String>>> that can hold the weather for today
+     * Creating an ArrayList<Map<TariffTableTypes,Map<String, String>>> that can hold the weather for the first season.
      */
     public static ArrayList<Map<TariffTableTypes, Map<String, String>>> today;
 
