@@ -34,6 +34,19 @@ public class WeatherController {
     private Label windAfternoon;
     @FXML
     private Label windEvening;
+    @FXML
+    private Text windDescMorning;
+    @FXML
+    private Text windDescAfternoon;
+    @FXML
+    private Text windDescEvening;
+    @FXML
+    private Label windTxtMorning;
+    @FXML
+    private Label windTxtAfternoon;
+    @FXML
+    private Label windTxtEvening;
+
 
     @FXML
     private Label rainMorning;
@@ -41,6 +54,19 @@ public class WeatherController {
     private Label rainAfternoon;
     @FXML
     private Label rainEvening;
+    @FXML
+    private Text rainDescMorning;
+    @FXML
+    private Text rainDescAfternoon;
+    @FXML
+    private Text rainDescEvening;
+    @FXML
+    private Label rainTxtMorning;
+    @FXML
+    private Label rainTxtAfternoon;
+    @FXML
+    private Label rainTxtEvening;
+
 
     @FXML
     private Label cloudMorning;
@@ -57,14 +83,15 @@ public class WeatherController {
     private Label snowEvening;
 
     @FXML
-    private Label gameSuggestion;
+    private Text gameSuggestion;
     @FXML
     private Text gameDescription;
 
     @FXML
-    private Label clothSuggestion;
+    private Text clothSuggestion;
     @FXML
     private Text clothDescription;
+
 
 
     public void initialize() {
@@ -94,17 +121,46 @@ public class WeatherController {
 
         String morningWind = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND") + " m/s";
         windMorning.setText(morningWind);
+        String morningWindTxt = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
+        windTxtMorning.setText(morningWindTxt);
+        String morningWindDesc = morning.get(TariffTableTypes.WIND_TARIFF).get("WIND_DESCRIPTION");
+        windDescMorning.setText(morningWindDesc);
+
         String afternoonWind = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND") + " m/s";
         windAfternoon.setText(afternoonWind);
+        String afternoonWindTxt = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
+        windTxtAfternoon.setText(afternoonWindTxt);
+        String afternoonWindDesc = afternoon.get(TariffTableTypes.WIND_TARIFF).get("WIND_DESCRIPTION");
+        windDescAfternoon.setText(afternoonWindDesc);
+
         String eveningWind = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND") + " m/s";
         windEvening.setText(eveningWind);
+        String eveningWindTxt = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND_TEXT");
+        windTxtEvening.setText(eveningWindTxt);
+        String eveningWindDesc = evening.get(TariffTableTypes.WIND_TARIFF).get("WIND_DESCRIPTION");
+        windDescEvening.setText(eveningWindDesc);
 
         String morningRain = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN") + " mm";
         rainMorning.setText(morningRain);
+        String morningRainTxt = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
+        rainTxtMorning.setText(morningRainTxt);
+        String morningRainDesc = morning.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_DESCRIPTION");
+        rainDescMorning .setText(morningRainDesc);
+
         String afternoonRain = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN") + " mm";
         rainAfternoon.setText(afternoonRain);
+        String afternoonRainTxt = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
+        rainTxtAfternoon.setText(afternoonRainTxt);
+        String afternoonRainDesc = afternoon.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_DESCRIPTION");
+        rainDescAfternoon.setText(afternoonRainDesc);
+
+
         String eveningRain = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN") + " mm";
         rainEvening.setText(eveningRain);
+        String eveningRainTxt = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_TEXT");
+        rainTxtEvening.setText(eveningRainTxt);
+        String eveningRainDesc = evening.get(TariffTableTypes.RAIN_TARIFF).get("RAIN_DESCRIPTION");
+        rainDescEvening.setText(eveningRainDesc);
 
         String morningCloud = morning.get(TariffTableTypes.CLOUDINESS_TARIFF).get("CLOUDINESS_TEXT");
         cloudMorning.setText(morningCloud);

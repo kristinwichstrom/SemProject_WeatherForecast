@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -15,7 +16,7 @@
             <Font size="23.0" />
          </font>
       </Button>
-      <AnchorPane layoutX="143.0" layoutY="159.0" prefHeight="270.0" prefWidth="232.0" styleClass="pane_morning" stylesheets="@../CSS/ForecastPages.css">
+      <AnchorPane layoutX="143.0" layoutY="123.0" prefHeight="344.0" prefWidth="261.0" styleClass="pane_morning" stylesheets="@../CSS/ForecastPages.css">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -23,25 +24,31 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
          <children>
-            <Label fx:id="tempMorning" alignment="CENTER" layoutX="89.0" layoutY="53.0" text="00" textFill="#f6fbff">
+            <Label fx:id="tempMorning" alignment="CENTER" layoutX="105.0" layoutY="48.0" text="00" textFill="#f6fbff">
                <font>
                   <Font name="Nunito Light" size="40.0" />
                </font>
             </Label>
-            <Label fx:id="cloudMorning" alignment="CENTER" layoutX="69.0" layoutY="16.0" text="Cloudiness" textAlignment="CENTER" textFill="#f6fbff">
+            <Label fx:id="cloudMorning" alignment="CENTER" layoutX="7.0" layoutY="12.0" prefHeight="37.0" prefWidth="244.0" text="Cloudiness" textAlignment="CENTER" textFill="#f6fbff">
                <font>
                   <Font name="Nunito SemiBold" size="19.0" />
                </font>
             </Label>
-            <Label fx:id="windMorning" layoutX="171.0" layoutY="145.0" text="Wind" textFill="#f6fbff" />
-            <Label fx:id="rainMorning" layoutX="172.0" layoutY="179.0" text="Rain" textFill="#f6fbff" />
-            <Label fx:id="snowMorning" layoutX="171.0" layoutY="213.0" text="Snow" textFill="#f6fbff" />
-            <Label layoutX="17.0" layoutY="142.0" text="Wind :" textFill="WHITE" />
-            <Label layoutX="18.0" layoutY="179.0" text="Rain :" textFill="WHITE" />
-            <Label layoutX="18.0" layoutY="213.0" text="Snow :" textFill="WHITE" />
+            <Label fx:id="windMorning" layoutX="210.0" layoutY="122.0" text="Wind" textFill="#f6fbff" />
+            <Label fx:id="rainMorning" layoutX="216.0" layoutY="206.0" text="Rain" textFill="WHITE" />
+            <Label fx:id="snowMorning" layoutX="171.0" layoutY="285.0" text="Snow" textFill="#f6fbff" />
+            <Label layoutX="17.0" layoutY="123.0" text="Wind :" textFill="WHITE" />
+            <Label layoutX="18.0" layoutY="206.0" text="Rain :" textFill="WHITE" />
+            <Label layoutX="18.0" layoutY="286.0" text="Snow :" textFill="WHITE" />
+            <Text fx:id="windDescMorning" fill="WHITE" layoutX="16.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Small branches sway, dust and loose paper blows about" wrappingWidth="244.23912706370857" />
+            <Label fx:id="windTxtMorning" layoutX="99.0" layoutY="123.0" text="Moderate Breeze" textFill="#f6fbff" />
+            <Label fx:id="rainTxtMorning" layoutX="120.0" layoutY="206.0" text="Moderate Rain" textFill="WHITE" />
+            <Text fx:id="rainDescMorning" fill="WHITE" layoutX="16.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Many drops, creating small puddles on the ground" wrappingWidth="237.3250950812867" />
+            <Line endX="121.17300415039062" layoutX="135.0" layoutY="198.0" startX="-130.99998474121094" stroke="#b6d3f2" strokeWidth="3.0" />
+            <Line endX="121.17300415039062" layoutX="136.0" layoutY="277.0" startX="-130.99998474121094" stroke="#b6d3f2" strokeWidth="3.0" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="479.0" layoutY="159.0" prefHeight="270.0" prefWidth="230.0" styleClass="pane_afternoon" stylesheets="@../CSS/ForecastPages.css">
+      <AnchorPane layoutX="479.0" layoutY="123.0" prefHeight="350.0" prefWidth="269.0" styleClass="pane_afternoon" stylesheets="@../CSS/ForecastPages.css">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -49,25 +56,31 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
          <children>
-            <Label fx:id="tempAfternoon" layoutX="89.0" layoutY="53.0" text="00" textFill="#f6fbff">
+            <Label fx:id="tempAfternoon" layoutX="114.0" layoutY="53.0" text="00" textFill="#f6fbff">
                <font>
                   <Font name="Nunito Light" size="40.0" />
                </font>
             </Label>
-            <Label fx:id="cloudAfternoon" layoutX="69.0" layoutY="16.0" text="Cloudiness" textFill="#f6fbff">
+            <Label fx:id="cloudAfternoon" alignment="CENTER" layoutX="9.0" layoutY="16.0" prefHeight="32.0" prefWidth="252.0" text="Cloudiness" textAlignment="CENTER" textFill="#f6fbff">
                <font>
                   <Font name="Nunito SemiBold" size="19.0" />
                </font>
             </Label>
-            <Label fx:id="windAfternoon" layoutX="170.0" layoutY="145.0" text="Wind" textFill="#f6fbff" />
-            <Label fx:id="rainAfternoon" layoutX="171.0" layoutY="179.0" text="Rain" textFill="#f6fbff" />
-            <Label fx:id="snowAfternoon" layoutX="170.0" layoutY="213.0" text="Snow" textFill="#f6fbff" />
-            <Label layoutX="15.0" layoutY="143.0" text="Wind :" textFill="WHITE" />
-            <Label layoutX="16.0" layoutY="180.0" text="Rain :" textFill="WHITE" />
-            <Label layoutX="16.0" layoutY="214.0" text="Snow :" textFill="WHITE" />
+            <Label fx:id="windAfternoon" layoutX="210.0" layoutY="124.0" text="Wind" textFill="#f6fbff" />
+            <Label fx:id="rainAfternoon" layoutX="216.0" layoutY="207.0" text="Rain" textFill="WHITE" />
+            <Label fx:id="snowAfternoon" layoutX="170.0" layoutY="280.0" text="Snow" textFill="#f6fbff" />
+            <Label layoutX="17.0" layoutY="123.0" text="Wind :" textFill="WHITE" />
+            <Label layoutX="18.0" layoutY="207.0" text="Rain :" textFill="WHITE" />
+            <Label layoutX="16.0" layoutY="281.0" text="Snow :" textFill="WHITE" />
+            <Text fx:id="windDescAfternoon" fill="WHITE" layoutX="16.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Small branches sway, dust and loose paper blows about" wrappingWidth="247.2491455078125" />
+            <Label fx:id="windTxtAfternoon" layoutX="99.0" layoutY="123.0" text="Moderate Breeze" textFill="#f6fbff" />
+            <Label fx:id="rainTxtAfternoon" layoutX="120.0" layoutY="207.0" text="Moderate Rain" textFill="WHITE" />
+            <Text fx:id="rainDescAfternoon" fill="WHITE" layoutX="16.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Many drops, creating small puddles on the ground" wrappingWidth="237.3250950812867" />
+            <Line endX="121.17300415039062" layoutX="138.0" layoutY="198.0" startX="-130.99998474121094" stroke="#b6d3f2" strokeWidth="3.0" />
+            <Line endX="121.17300415039062" layoutX="140.0" layoutY="275.0" startX="-130.99998474121094" stroke="#b6d3f2" strokeWidth="3.0" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="812.0" layoutY="159.0" prefHeight="270.0" prefWidth="230.0" styleClass="pane_evening" stylesheets="@../CSS/ForecastPages.css">
+      <AnchorPane layoutX="812.0" layoutY="123.0" prefHeight="348.0" prefWidth="267.0" styleClass="pane_evening" stylesheets="@../CSS/ForecastPages.css">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -75,77 +88,83 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
          <children>
-            <Label fx:id="tempEvening" layoutX="89.0" layoutY="53.0" text="00" textFill="#f6fbff">
+            <Label fx:id="tempEvening" layoutX="114.0" layoutY="53.0" text="00" textFill="#f6fbff">
                <font>
                   <Font name="Nunito Light" size="40.0" />
                </font>
             </Label>
-            <Label fx:id="cloudEvening" layoutX="69.0" layoutY="16.0" text="Cloudiness" textFill="#f6fbff">
+            <Label fx:id="cloudEvening" alignment="CENTER" layoutX="16.0" layoutY="16.0" prefHeight="24.0" prefWidth="252.0" text="Cloudiness" textFill="#f6fbff">
                <font>
                   <Font size="19.0" />
                </font>
             </Label>
-            <Label fx:id="windEvening" layoutX="170.0" layoutY="145.0" text="Wind" textFill="#f6fbff" />
-            <Label fx:id="rainEvening" layoutX="171.0" layoutY="179.0" text="Rain" textFill="#f6fbff" />
-            <Label fx:id="snowEvening" layoutX="170.0" layoutY="213.0" text="Snow" textFill="#f6fbff" />
-            <Label layoutX="24.0" layoutY="142.0" text="Wind :" textFill="WHITE" />
-            <Label layoutX="25.0" layoutY="179.0" text="Rain :" textFill="WHITE" />
-            <Label layoutX="25.0" layoutY="213.0" text="Snow :" textFill="WHITE" />
+            <Label fx:id="windEvening" layoutX="210.0" layoutY="124.0" text="Wind" textFill="#f6fbff" />
+            <Label fx:id="rainEvening" layoutX="216.0" layoutY="203.0" text="Rain" textFill="WHITE" />
+            <Label fx:id="snowEvening" layoutX="170.0" layoutY="280.0" text="Snow" textFill="#f6fbff" />
+            <Label layoutX="17.0" layoutY="123.0" text="Wind :" textFill="WHITE" />
+            <Label layoutX="18.0" layoutY="203.0" text="Rain :" textFill="WHITE" />
+            <Label layoutX="16.0" layoutY="280.0" text="Snow :" textFill="WHITE" />
+            <Text fx:id="windDescEvening" fill="WHITE" layoutX="16.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Small branches sway, dust and loose paper blows about" wrappingWidth="235.568359375" />
+            <Label fx:id="windTxtEvening" layoutX="99.0" layoutY="123.0" text="Moderate Breeze" textFill="#f6fbff" />
+            <Text fx:id="rainDescEvening" fill="WHITE" layoutX="16.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Many drops, creating small puddles on the ground" wrappingWidth="237.3250950812867" />
+            <Label fx:id="rainTxtEvening" layoutX="117.0" layoutY="203.0" text="Moderate Rain" textFill="WHITE" />
+            <Line endX="121.17300415039062" layoutX="139.0" layoutY="198.0" startX="-130.99998474121094" stroke="#b6d3f2" strokeWidth="3.0" />
+            <Line endX="121.17300415039062" layoutX="140.0" layoutY="272.0" startX="-130.99998474121094" stroke="#b6d3f2" strokeWidth="3.0" />
          </children>
       </AnchorPane>
-      <Label layoutX="208.0" layoutY="115.0" text="Morning" textAlignment="CENTER" textFill="#4183bc">
+      <Label layoutX="221.0" layoutY="77.0" text="Morning" textAlignment="CENTER" textFill="#4183bc">
          <font>
             <Font name="Lilita One" size="28.0" />
          </font>
       </Label>
-      <Label layoutX="884.0" layoutY="115.0" text="Evening" textAlignment="CENTER" textFill="#4183bc">
+      <Label layoutX="902.0" layoutY="78.0" text="Evening" textAlignment="CENTER" textFill="#4183bc">
          <font>
             <Font name="Lilita One" size="28.0" />
          </font>
       </Label>
-      <Label layoutX="533.0" layoutY="115.0" text="Afternoon" textAlignment="CENTER" textFill="#4183bc">
+      <Label layoutX="550.0" layoutY="78.0" text="Afternoon" textAlignment="CENTER" textFill="#4183bc">
          <font>
             <Font name="Lilita One" size="28.0" />
          </font>
       </Label>
-      <Label layoutX="200.0" layoutY="484.0" text="Game suggestion for today" textFill="#fcf8f8">
+      <Label layoutX="199.0" layoutY="495.0" text="Game suggestion for today" textFill="#fcf8f8">
          <font>
             <Font name="Lilita One" size="23.0" />
          </font>
       </Label>
-      <AnchorPane layoutX="132.0" layoutY="530.0" opacity="0.88" prefHeight="219.0" prefWidth="399.0" styleClass="pane_game">
+      <AnchorPane layoutX="132.0" layoutY="539.0" opacity="0.88" prefHeight="219.0" prefWidth="399.0" styleClass="pane_game">
          <children>
             <Text fx:id="gameDescription" fill="#114f8a" layoutX="27.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A snowman is built by rolling three large snowballs and stacking them on top of each other. The first one should be the biggest, to create the lower part of the snowman. The second one a bit smaller, to create the upper body. And the last one even smaller, to create the head of the snowman. Remember to use a carrot, as the snowmans nose!" textAlignment="CENTER" wrappingWidth="345.2626647949219">
                <font>
                   <Font name="Nunito SemiBold" size="14.0" />
                </font>
             </Text>
-            <Label fx:id="gameSuggestion" alignment="CENTER" contentDisplay="CENTER" layoutX="94.0" layoutY="20.0" text="Build a snowman" textAlignment="CENTER" textFill="#18518d">
+            <Text fx:id="gameSuggestion" fill="#18518d" layoutX="5.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Suggestion" textAlignment="CENTER" wrappingWidth="390.16252816637734">
                <font>
                   <Font name="Nunito SemiBold" size="20.0" />
                </font>
-            </Label>
+            </Text>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="634.0" layoutY="530.0" opacity="0.86" prefHeight="219.0" prefWidth="399.0" styleClass="pane_game">
+      <AnchorPane layoutX="634.0" layoutY="539.0" opacity="0.86" prefHeight="219.0" prefWidth="399.0" styleClass="pane_game">
          <children>
-            <Label fx:id="clothSuggestion" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="29.0" text="Umbrella" textAlignment="CENTER" textFill="#18518d">
-               <font>
-                  <Font name="Nunito SemiBold" size="20.0" />
-               </font>
-            </Label>
             <Text fx:id="clothDescription" fill="#114f8a" layoutX="30.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The wind is strong. So if you want to bring an umbrella, make sure it is a good one, so it wont break.The wind is strong. So if you want to bring an umbrella, make sure it is a good one, so it wont break." textAlignment="CENTER" wrappingWidth="337.2459716796875">
                <font>
                   <Font name="Nunito SemiBold" size="14.0" />
                </font></Text>
+            <Text fx:id="clothSuggestion" fill="#18518d" layoutX="3.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cloth Suggestion" textAlignment="CENTER" wrappingWidth="390.16252816637734">
+               <font>
+                  <Font name="Nunito SemiBold" size="20.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
-      <Label layoutX="718.0" layoutY="485.0" text="What to wear today?" textFill="#fcf8f8">
+      <Label layoutX="736.0" layoutY="496.0" text="What to wear today?" textFill="#fcf8f8">
          <font>
             <Font name="Lilita One" size="23.0" />
          </font>
       </Label>
-      <Label fx:id="season" alignment="CENTER" layoutX="495.0" layoutY="41.0" prefHeight="50.0" prefWidth="201.0" text="Season" textFill="WHITE">
+      <Label fx:id="season" alignment="CENTER" layoutX="495.0" layoutY="14.0" prefHeight="50.0" prefWidth="201.0" text="Season" textFill="WHITE">
          <font>
             <Font name="Nunito SemiBold" size="20.0" />
          </font>
