@@ -45,7 +45,7 @@
             <Font name="Lilita One" size="21.0" />
          </font>
       </Text>
-      <Text fill="#195bb2" layoutX="586.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gale">
+      <Text fill="#195bb2" layoutX="586.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gale">
          <font>
             <Font name="Lilita One" size="21.0" />
          </font>
@@ -55,12 +55,12 @@
             <Font name="Lilita One" size="21.0" />
          </font>
       </Text>
-      <Text fill="#14428d" layoutX="911.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A tornado spins the air around in a circle-formed tube. Wind inside the tornado spins very fast and this makes tornadoes dangerous." textAlignment="CENTER" wrappingWidth="237.95846557617188">
+      <Text fill="#14428d" layoutX="911.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A tornado spins the air around in a circle-formed tube. Wind inside the tornado spins very fast and this makes tornadoes dangerous." textAlignment="CENTER" wrappingWidth="237.95846557617188">
          <font>
             <Font name="Nunito SemiBold" size="14.0" />
          </font>
       </Text>
-      <Text fill="#14428d" layoutX="492.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A gale is strong wind. " textAlignment="CENTER" wrappingWidth="237.95846557617188">
+      <Text fill="#14428d" layoutX="492.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A gale can be in different strengths, from moderate gale where trees will sway, and all up to whole gale where trees might be uprooted. A gale often means a strong wind. " textAlignment="CENTER" wrappingWidth="245.15969848632812">
          <font>
             <Font name="Nunito SemiBold" size="14.0" />
          </font>
@@ -80,7 +80,7 @@
             <Image url="@../images_learnMorePage/gale_1500x1500.png" />
          </image>
       </ImageView>
-      <Text fill="#14428d" layoutX="142.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A breeze is a light and gentle wind which we can just feel. A breeze happens because of two temperature differences in the air." textAlignment="CENTER" wrappingWidth="237.95846557617188">
+      <Text fill="#14428d" layoutX="142.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A breeze is a light and gentle wind which we can just feel. A breeze happens because of two temperature differences in the air." textAlignment="CENTER" wrappingWidth="237.95846557617188">
          <font>
             <Font name="Nunito SemiBold" size="14.0" />
          </font>
