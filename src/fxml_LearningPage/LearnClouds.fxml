@@ -25,9 +25,9 @@
             <Font name="Nunito Regular" size="28.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="24.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are many types of clouds. Click to learn about some of them." textAlignment="CENTER" wrappingWidth="226.1499786376953">
+      <Text fill="WHITE" layoutX="33.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There can be many types of clouds on the sky. Click to learn about some of them." textAlignment="CENTER" wrappingWidth="255.34031677246094">
          <font>
-            <Font name="Nunito SemiBold" size="18.0" />
+            <Font name="Nunito SemiBold" size="20.0" />
          </font>
       </Text>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="1065.0" layoutY="257.0" opacity="0.86" preserveRatio="true">

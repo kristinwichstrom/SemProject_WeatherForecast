@@ -44,7 +44,7 @@
          <Image url="@../images_learningPage/abstract4_1500x1500.png" />
       </image>
    </ImageView>
-   <Text fill="WHITE" layoutX="1020.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The sun controls how hot and cold it is!" textAlignment="CENTER" wrappingWidth="180.19937887654396">
+   <Text fill="WHITE" layoutX="1011.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The sun controls how hot and cold it is!" textAlignment="CENTER" wrappingWidth="211.19937887654396">
       <font>
          <Font name="Nunito SemiBold" size="21.0" />
       </font>

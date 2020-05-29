@@ -20,7 +20,7 @@
                 <Font name="Lilita One" size="67.0" />
             </font>
         </Label>
-        <Text fill="#063979" layoutX="102.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water is available in three forms. It can either be liquid, which is called water, solid called ice or gas called vapour. Raindrops are the liquid form of water that falls down from the clouds. " wrappingWidth="572.3515014648438">
+        <Text fill="#063979" layoutX="103.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water is available in three forms. It can either be liquid, which is called water, solid called ice or gas called vapour.  " wrappingWidth="436.0">
             <font>
                 <Font name="Nunito SemiBold" size="22.0" />
             </font>
@@ -40,7 +40,7 @@
             <Font name="Nunito SemiBold" size="22.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="800.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rain is the liquid form of water that falls down from the clouds or raindrops. " textAlignment="CENTER" wrappingWidth="258.39003514051257">
+      <Text fill="WHITE" layoutX="800.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Raindrops are the liquid form of water that falls down from the clouds. " textAlignment="CENTER" wrappingWidth="258.39003514051257">
          <font>
             <Font name="Nunito SemiBold" size="22.0" />
          </font>

@@ -61,7 +61,7 @@
          <children>
             <Text fill="#194c79" layoutX="1.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a topic!" textAlignment="CENTER" wrappingWidth="1237.4700050354004">
                <font>
-                  <Font name="Lilita One" size="72.0" />
+                  <Font name="Lilita One" size="62.0" />
                </font>
             </Text>
          </children></Pane>
