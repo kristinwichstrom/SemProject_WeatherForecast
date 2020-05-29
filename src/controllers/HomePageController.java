@@ -17,9 +17,10 @@ public class HomePageController {
     public static ArrayList<ArrayList> weatherForecastFromDb;
 
     /**
-     * Creating an ArrayList<Map<TariffTableTypes,Map<String, String>>> that can hold the weather for the first season.
+     * Creating an ArrayList<Map<TariffTableTypes,Map<String, String>>> that can hold the weather for the the different time
+     * of day (morning, afternoon, evening).
      */
-    public static ArrayList<Map<TariffTableTypes, Map<String, String>>> today;
+    public static ArrayList<Map<TariffTableTypes, Map<String, String>>> timeOfDay;
 
     public static String season;
 
