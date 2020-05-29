@@ -14,7 +14,7 @@
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Choose another topic" textFill="WHITE" />
       <Label layoutX="95.0" layoutY="161.0" text="What are winds?" textFill="WHITE">
          <font>
             <Font name="Lilita One" size="60.0" />

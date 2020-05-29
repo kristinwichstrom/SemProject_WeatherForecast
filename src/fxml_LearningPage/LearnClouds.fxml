@@ -14,7 +14,7 @@
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Choose another topic" textFill="WHITE" />
       <Label layoutX="95.0" layoutY="93.0" text="What are clouds?" textFill="#4183bc">
          <font>
             <Font name="Lilita One" size="60.0" />
@@ -25,7 +25,7 @@
             <Font name="Nunito Regular" size="28.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="24.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are three types of clouds. Click to read more about them." textAlignment="CENTER" wrappingWidth="226.1499786376953">
+      <Text fill="WHITE" layoutX="24.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are many types of clouds. Click to learn about some of them." textAlignment="CENTER" wrappingWidth="226.1499786376953">
          <font>
             <Font name="Nunito SemiBold" size="18.0" />
          </font>

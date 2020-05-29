@@ -14,13 +14,13 @@
             <font>
                 <Font name="System Bold" size="13.0" />
             </font></Button>
-        <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+        <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Choose another topic" textFill="WHITE" />
         <Label layoutX="95.0" layoutY="161.0" text="What is rain?" textFill="WHITE">
             <font>
                 <Font name="Lilita One" size="67.0" />
             </font>
         </Label>
-        <Text fill="#063979" layoutX="102.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water is available in three forms. It can either be liquid, which is called water, or solid called ice or gas called vapour. Rain is the liquid form of water that falls down from the clouds or raindrops. " wrappingWidth="572.3515014648438">
+        <Text fill="#063979" layoutX="102.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water is available in three forms. It can either be liquid, which is called water, solid called ice or gas called vapour. Raindrops are the liquid form of water that falls down from the clouds. " wrappingWidth="572.3515014648438">
             <font>
                 <Font name="Nunito SemiBold" size="22.0" />
             </font>
@@ -55,7 +55,7 @@
             <Font name="Nunito SemiBold" size="22.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="883.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mm">
+      <Text fill="WHITE" layoutX="882.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mm">
          <font>
             <Font name="Lilita One" size="50.0" />
          </font>

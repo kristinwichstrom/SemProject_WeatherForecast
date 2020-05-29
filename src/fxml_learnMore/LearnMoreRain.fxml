@@ -19,7 +19,7 @@
             <Image url="@../images_learningPage/condensation.png" />
          </image>
       </ImageView>
-      <Text fill="#3c55a1" layoutX="86.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The heat from the sun makes the water rom plants, leaves and other bodies of water turn into water vapour. " textAlignment="CENTER" wrappingWidth="200.2039566040039">
+      <Text fill="#3c55a1" layoutX="86.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The heat from the sun makes the water from plants, leaves and other bodies of water turn into water vapour. " textAlignment="CENTER" wrappingWidth="200.2039566040039">
          <font>
             <Font name="Nunito SemiBold" size="16.0" />
          </font>
@@ -29,7 +29,7 @@
             <Image url="@../images_learnMorePage/arrow.png" />
          </image>
       </ImageView>
-      <Text fill="#3c55a1" layoutX="499.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The vapour in the air coolds and changes into water droplets. These droplets come together and form a cloud." textAlignment="CENTER" wrappingWidth="211.7115478515626">
+      <Text fill="#3c55a1" layoutX="499.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The vapour in the air cools and changes into water droplets. These droplets come together and form a cloud." textAlignment="CENTER" wrappingWidth="230.7740478515626">
          <font>
             <Font name="Nunito SemiBold" size="16.0" />
          </font>
@@ -38,7 +38,7 @@
          <image>
             <Image url="@../images_learningPage/rain_clouds_sun.png" />
          </image></ImageView>
-      <Text fill="#3c55a1" layoutX="972.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the clouds get heavy they fall as rain." textAlignment="CENTER" wrappingWidth="191.53532011026533">
+      <Text fill="#3c55a1" layoutX="959.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When the clouds get heavy the liquid falls as rain." textAlignment="CENTER" wrappingWidth="204.24363309854658">
          <font>
             <Font name="Nunito SemiBold" size="16.0" />
          </font>
@@ -52,7 +52,7 @@
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Back to learn about " textFill="WHITE" />
+      <Button layoutX="1050.0" layoutY="693.0" mnemonicParsing="false" onAction="#learningPageButton" prefHeight="75.0" prefWidth="191.0" styleClass="buttonBackHome" stylesheets="@../CSS/Buttons_LearningPage.css" text="Choose another topic" textFill="WHITE" />
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="507.0" layoutY="294.0">
          <image>
             <Image url="@../images_learnMorePage/cloud_white_1000x1000.png" />
