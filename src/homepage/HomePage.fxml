@@ -26,12 +26,12 @@
             <Image url="@../images_frontpage/ting.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="85.0" fitWidth="91.0" layoutX="116.0" layoutY="512.0">
+      <ImageView fitHeight="138.0" fitWidth="148.0" layoutX="561.0" layoutY="467.0">
          <image>
             <Image url="@../images_learningPage/abstract4_1500x1500.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="144.0" fitWidth="133.0" layoutX="505.0" layoutY="435.0">
+      <ImageView fitHeight="144.0" fitWidth="133.0" layoutX="104.0" layoutY="477.0">
          <image>
             <Image url="@../images_frontpage/cloud_white_smile.png" />
          </image>
@@ -61,9 +61,14 @@
             <Image url="@../images_frontpage/forecast_icon_1500x1500.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="198.0" fitWidth="211.0" layoutX="62.0" layoutY="548.0">
+      <ImageView fitHeight="198.0" fitWidth="211.0" layoutX="476.0" layoutY="526.0">
          <image>
             <Image url="@../images_learningPage/abstract2_1500x1500.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="179.0" fitWidth="179.0" layoutX="397.0" layoutY="576.0">
+         <image>
+            <Image url="@../images_learningPage/abstract1_1500x1500.png" />
          </image>
       </ImageView>
    </children>
