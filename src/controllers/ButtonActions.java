@@ -54,7 +54,7 @@ public class ButtonActions {
 
 
     public ActionEvent weatherSummer(ActionEvent actionEvent) throws IOException {
-        HomePageController.today = (ArrayList) HomePageController.weatherForecastFromDb.get(0);
+        HomePageController.timeOfDay = (ArrayList) HomePageController.weatherForecastFromDb.get(0);
         HomePageController.season = "SUMMER";
         this.root = (Parent) FXMLLoader.load(this.getClass().getResource("../fxml_weatherForecast/Weather.fxml"));
         this.Stage(actionEvent);
@@ -62,7 +62,7 @@ public class ButtonActions {
     }
 
     public ActionEvent weatherAutumn(ActionEvent actionEvent) throws IOException {
-        HomePageController.today = (ArrayList) HomePageController.weatherForecastFromDb.get(1);
+        HomePageController.timeOfDay = (ArrayList) HomePageController.weatherForecastFromDb.get(1);
         HomePageController.season = "AUTUMN";
         this.root = (Parent) FXMLLoader.load(this.getClass().getResource("../fxml_weatherForecast/Weather.fxml"));
         this.Stage(actionEvent);
@@ -70,7 +70,7 @@ public class ButtonActions {
     }
 
     public ActionEvent weatherWinter(ActionEvent actionEvent) throws IOException {
-        HomePageController.today = (ArrayList) HomePageController.weatherForecastFromDb.get(2);
+        HomePageController.timeOfDay = (ArrayList) HomePageController.weatherForecastFromDb.get(2);
         HomePageController.season = "WINTER";
         this.root = (Parent) FXMLLoader.load(this.getClass().getResource("../fxml_weatherForecast/Weather.fxml"));
         this.Stage(actionEvent);
@@ -78,7 +78,7 @@ public class ButtonActions {
     }
 
     public ActionEvent weatherSpring(ActionEvent actionEvent) throws IOException {
-        HomePageController.today = (ArrayList) HomePageController.weatherForecastFromDb.get(3);
+        HomePageController.timeOfDay  = (ArrayList) HomePageController.weatherForecastFromDb.get(3);
         HomePageController.season = "SPRING";
         this.root = (Parent) FXMLLoader.load(this.getClass().getResource("../fxml_weatherForecast/Weather.fxml"));
         this.Stage(actionEvent);
